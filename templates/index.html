@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan Universities Map</title>
+</head>
+<body>
+    <h1>台灣的大學地理位置圖以及網址</h1>
+
+    <!-- 在此處插入外部網站連結 -->
+    <div>
+        <p>如果想看到更詳細資訊及分數趨勢：<a href="https://www.com.tw/p.html" target="_blank">儒林落點分析</a></p>
+    </div>
+
+    <div>
+        <h2></h2>
+        <img src="{{ url_for('static', filename='213.png') }}" alt="Example Image" style="max-width:50%; height:50%;">
+        <img src="{{ url_for('static', filename='1111.png') }}" alt="Example Image2" style="max-width:50%; height:50%;">
+    </div>
+
+    
+    <!-- 插入地圖 -->
+    <iframe src="{{ url_for('static', filename='universities_map.html') }}" width="100%" height="600"></iframe>
+
+    
+</body>
+</html>

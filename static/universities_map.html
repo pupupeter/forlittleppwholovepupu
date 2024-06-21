@@ -1,0 +1,4288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3047847a6040002d3049a6865f69de3c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3047847a6040002d3049a6865f69de3c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3047847a6040002d3049a6865f69de3c = L.map(
+                "map_3047847a6040002d3049a6865f69de3c",
+                {
+                    center: [23.69781, 120.96051],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_298386916752d53fad73ca66e2a64598 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_298386916752d53fad73ca66e2a64598.addTo(map_3047847a6040002d3049a6865f69de3c);
+        
+    
+            var marker_cluster_f30d55a07332946160ce087e7da5663a = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_896580e595ff8b8983956c8145e479ad = L.marker(
+                [24.98741708, 121.5733455],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5e5a85d0e58a0dc9f4c89080f873372b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89bef10f0c1647bd65309e07e08ff0e3 = $(`<div id="html_89bef10f0c1647bd65309e07e08ff0e3" style="width: 100.0%; height: 100.0%;"><b>國立政治大學</b><br>臺北市文山區指南路二段64號<br>電話: (02)29393091<br><a href='http://www.nccu.edu.tw' target='_blank'>http://www.nccu.edu.tw</a></div>`)[0];
+                popup_5e5a85d0e58a0dc9f4c89080f873372b.setContent(html_89bef10f0c1647bd65309e07e08ff0e3);
+            
+        
+
+        marker_896580e595ff8b8983956c8145e479ad.bindPopup(popup_5e5a85d0e58a0dc9f4c89080f873372b)
+        ;
+
+        
+    
+    
+            marker_896580e595ff8b8983956c8145e479ad.bindTooltip(
+                `<div>
+                     國立政治大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1842d7d1b2bfa9d978b6ee516a0c949 = L.marker(
+                [24.79280152, 120.9908167],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_2ffccb32e92ff1122979ff2c74d7bbc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed6e392eaa9b79c5f5ea829b9697848a = $(`<div id="html_ed6e392eaa9b79c5f5ea829b9697848a" style="width: 100.0%; height: 100.0%;"><b>國立清華大學</b><br>新竹市東區光復路二段101號<br>電話: (03)5715131<br><a href='http://www.nthu.edu.tw' target='_blank'>http://www.nthu.edu.tw</a></div>`)[0];
+                popup_2ffccb32e92ff1122979ff2c74d7bbc0.setContent(html_ed6e392eaa9b79c5f5ea829b9697848a);
+            
+        
+
+        marker_d1842d7d1b2bfa9d978b6ee516a0c949.bindPopup(popup_2ffccb32e92ff1122979ff2c74d7bbc0)
+        ;
+
+        
+    
+    
+            marker_d1842d7d1b2bfa9d978b6ee516a0c949.bindTooltip(
+                `<div>
+                     國立清華大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef019f23fcf446a046b2f278d5cfbc26 = L.marker(
+                [25.01472708, 121.5322622],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e7a9d57c9fb21c6d0ad59050cbcd608f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f645acc7d93d00b9c9c255b3d06fc4dc = $(`<div id="html_f645acc7d93d00b9c9c255b3d06fc4dc" style="width: 100.0%; height: 100.0%;"><b>國立臺灣大學</b><br>臺北市大安區羅斯福路四段1號<br>電話: (02)33663366<br><a href='http://www.ntu.edu.tw' target='_blank'>http://www.ntu.edu.tw</a></div>`)[0];
+                popup_e7a9d57c9fb21c6d0ad59050cbcd608f.setContent(html_f645acc7d93d00b9c9c255b3d06fc4dc);
+            
+        
+
+        marker_ef019f23fcf446a046b2f278d5cfbc26.bindPopup(popup_e7a9d57c9fb21c6d0ad59050cbcd608f)
+        ;
+
+        
+    
+    
+            marker_ef019f23fcf446a046b2f278d5cfbc26.bindTooltip(
+                `<div>
+                     國立臺灣大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a508bf471c934fde5e7a75533f231826 = L.marker(
+                [25.02564147, 121.5244256],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3a771a636b25f38268d9d81812c9c705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41d4c8c083254dbd3340e7dca910b121 = $(`<div id="html_41d4c8c083254dbd3340e7dca910b121" style="width: 100.0%; height: 100.0%;"><b>國立臺灣師範大學</b><br>臺北市大安區和平東路一段162號<br>電話: (02)77491111<br><a href='http://www.ntnu.edu.tw' target='_blank'>http://www.ntnu.edu.tw</a></div>`)[0];
+                popup_3a771a636b25f38268d9d81812c9c705.setContent(html_41d4c8c083254dbd3340e7dca910b121);
+            
+        
+
+        marker_a508bf471c934fde5e7a75533f231826.bindPopup(popup_3a771a636b25f38268d9d81812c9c705)
+        ;
+
+        
+    
+    
+            marker_a508bf471c934fde5e7a75533f231826.bindTooltip(
+                `<div>
+                     國立臺灣師範大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_885f7c67034b614f607cd5314f885630 = L.marker(
+                [22.99653107, 120.2160002],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_084211d1b47fbc1810e848c0a0e23d3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7dc76737978768182a9048c66c33ef4 = $(`<div id="html_e7dc76737978768182a9048c66c33ef4" style="width: 100.0%; height: 100.0%;"><b>國立成功大學</b><br>臺南市東區大學路1號<br>電話: (06)2757575<br><a href='http://www.ncku.edu.tw' target='_blank'>http://www.ncku.edu.tw</a></div>`)[0];
+                popup_084211d1b47fbc1810e848c0a0e23d3f.setContent(html_e7dc76737978768182a9048c66c33ef4);
+            
+        
+
+        marker_885f7c67034b614f607cd5314f885630.bindPopup(popup_084211d1b47fbc1810e848c0a0e23d3f)
+        ;
+
+        
+    
+    
+            marker_885f7c67034b614f607cd5314f885630.bindTooltip(
+                `<div>
+                     國立成功大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2085583d3244736008d9cac0c20e1c2e = L.marker(
+                [24.11849553, 120.6737251],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_b1d7d12e707787cfc49ee01a89007a2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2587ebe406488fa8da642c59497b400c = $(`<div id="html_2587ebe406488fa8da642c59497b400c" style="width: 100.0%; height: 100.0%;"><b>國立中興大學</b><br>臺中市南區興大路145號<br>電話: (04)22873181<br><a href='http://www.nchu.edu.tw' target='_blank'>http://www.nchu.edu.tw</a></div>`)[0];
+                popup_b1d7d12e707787cfc49ee01a89007a2f.setContent(html_2587ebe406488fa8da642c59497b400c);
+            
+        
+
+        marker_2085583d3244736008d9cac0c20e1c2e.bindPopup(popup_b1d7d12e707787cfc49ee01a89007a2f)
+        ;
+
+        
+    
+    
+            marker_2085583d3244736008d9cac0c20e1c2e.bindTooltip(
+                `<div>
+                     國立中興大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa9bbaf94a261171fe7ea96f451a2976 = L.marker(
+                [24.78681488, 120.9952855],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1ba6f21fa320b67cd8396411fa367155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9160f73382fb1d9aa05ee7d83e996ac7 = $(`<div id="html_9160f73382fb1d9aa05ee7d83e996ac7" style="width: 100.0%; height: 100.0%;"><b>國立陽明交通大學</b><br>新竹市東區大學路1001號<br>電話: (03)5712121<br><a href='http://www.nycu.edu.tw' target='_blank'>http://www.nycu.edu.tw</a></div>`)[0];
+                popup_1ba6f21fa320b67cd8396411fa367155.setContent(html_9160f73382fb1d9aa05ee7d83e996ac7);
+            
+        
+
+        marker_fa9bbaf94a261171fe7ea96f451a2976.bindPopup(popup_1ba6f21fa320b67cd8396411fa367155)
+        ;
+
+        
+    
+    
+            marker_fa9bbaf94a261171fe7ea96f451a2976.bindTooltip(
+                `<div>
+                     國立陽明交通大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef8dcb15d8ed9a568581b1060429ef49 = L.marker(
+                [24.96643097, 121.1899397],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_751245ea1b3ff7c00436bc2a9723b0fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789eaabaa4c459eda05e4851246e8275 = $(`<div id="html_789eaabaa4c459eda05e4851246e8275" style="width: 100.0%; height: 100.0%;"><b>國立中央大學</b><br>桃園市中壢區中大路300號<br>電話: (03)4227151<br><a href='http://www.ncu.edu.tw' target='_blank'>http://www.ncu.edu.tw</a></div>`)[0];
+                popup_751245ea1b3ff7c00436bc2a9723b0fe.setContent(html_789eaabaa4c459eda05e4851246e8275);
+            
+        
+
+        marker_ef8dcb15d8ed9a568581b1060429ef49.bindPopup(popup_751245ea1b3ff7c00436bc2a9723b0fe)
+        ;
+
+        
+    
+    
+            marker_ef8dcb15d8ed9a568581b1060429ef49.bindTooltip(
+                `<div>
+                     國立中央大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a35ab45d30656737ed9c8ca79273d47 = L.marker(
+                [22.62838797, 120.2621621],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e13dc4f183d866b7b00d1eb8da1d4fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_179bf794be2b2d138970503eb75a5499 = $(`<div id="html_179bf794be2b2d138970503eb75a5499" style="width: 100.0%; height: 100.0%;"><b>國立中山大學</b><br>高雄市鼓山區蓮海路70號<br>電話: (07)5252000<br><a href='http://www.nsysu.edu.tw' target='_blank'>http://www.nsysu.edu.tw</a></div>`)[0];
+                popup_e13dc4f183d866b7b00d1eb8da1d4fed.setContent(html_179bf794be2b2d138970503eb75a5499);
+            
+        
+
+        marker_1a35ab45d30656737ed9c8ca79273d47.bindPopup(popup_e13dc4f183d866b7b00d1eb8da1d4fed)
+        ;
+
+        
+    
+    
+            marker_1a35ab45d30656737ed9c8ca79273d47.bindTooltip(
+                `<div>
+                     國立中山大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5149d37cc6da88ead3c1c8379e49c81f = L.marker(
+                [25.15043998, 121.7729982],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6acac2f169caf46dc44ac46e563e77e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01ac549634c8db6d664bddab2e3d934d = $(`<div id="html_01ac549634c8db6d664bddab2e3d934d" style="width: 100.0%; height: 100.0%;"><b>國立臺灣海洋大學</b><br>基隆市中正區北寧路2號<br>電話: (02)24622192<br><a href='http://www.ntou.edu.tw' target='_blank'>http://www.ntou.edu.tw</a></div>`)[0];
+                popup_6acac2f169caf46dc44ac46e563e77e2.setContent(html_01ac549634c8db6d664bddab2e3d934d);
+            
+        
+
+        marker_5149d37cc6da88ead3c1c8379e49c81f.bindPopup(popup_6acac2f169caf46dc44ac46e563e77e2)
+        ;
+
+        
+    
+    
+            marker_5149d37cc6da88ead3c1c8379e49c81f.bindTooltip(
+                `<div>
+                     國立臺灣海洋大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_335d51cf48c9678eebe2b70847b9e254 = L.marker(
+                [23.56196197, 120.4758743],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4fa999a14f342b0e61fa41106e2b742d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_338facf044e714d165604531281a9d6f = $(`<div id="html_338facf044e714d165604531281a9d6f" style="width: 100.0%; height: 100.0%;"><b>國立中正大學</b><br>嘉義縣民雄鄉三興村7鄰大學路一段168號<br>電話: (05)2720411<br><a href='http://www.ccu.edu.tw' target='_blank'>http://www.ccu.edu.tw</a></div>`)[0];
+                popup_4fa999a14f342b0e61fa41106e2b742d.setContent(html_338facf044e714d165604531281a9d6f);
+            
+        
+
+        marker_335d51cf48c9678eebe2b70847b9e254.bindPopup(popup_4fa999a14f342b0e61fa41106e2b742d)
+        ;
+
+        
+    
+    
+            marker_335d51cf48c9678eebe2b70847b9e254.bindTooltip(
+                `<div>
+                     國立中正大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0c2d754b95d2098ca576afd7897a1ee = L.marker(
+                [22.62750057, 120.3190601],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_da1d54fbbe2bf05b1eed120d39042474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b038e0f6bbb6f7b23f4e9ec755e10fb = $(`<div id="html_4b038e0f6bbb6f7b23f4e9ec755e10fb" style="width: 100.0%; height: 100.0%;"><b>國立高雄師範大學</b><br>高雄市苓雅區和平一路116號<br>電話: (07)7172930<br><a href='http://www.nknu.edu.tw' target='_blank'>http://www.nknu.edu.tw</a></div>`)[0];
+                popup_da1d54fbbe2bf05b1eed120d39042474.setContent(html_4b038e0f6bbb6f7b23f4e9ec755e10fb);
+            
+        
+
+        marker_b0c2d754b95d2098ca576afd7897a1ee.bindPopup(popup_da1d54fbbe2bf05b1eed120d39042474)
+        ;
+
+        
+    
+    
+            marker_b0c2d754b95d2098ca576afd7897a1ee.bindTooltip(
+                `<div>
+                     國立高雄師範大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fc82d715ce842e69cf8a45d4c0bba66 = L.marker(
+                [24.08266668, 120.5558507],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_874b3ab3635e2cc80444ed767c850337 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb15a46adc093854d4b1842b93d48ab8 = $(`<div id="html_bb15a46adc093854d4b1842b93d48ab8" style="width: 100.0%; height: 100.0%;"><b>國立彰化師範大學</b><br>彰化縣彰化市進德路1號<br>電話: (04)7232105<br><a href='http://www.ncue.edu.tw' target='_blank'>http://www.ncue.edu.tw</a></div>`)[0];
+                popup_874b3ab3635e2cc80444ed767c850337.setContent(html_bb15a46adc093854d4b1842b93d48ab8);
+            
+        
+
+        marker_8fc82d715ce842e69cf8a45d4c0bba66.bindPopup(popup_874b3ab3635e2cc80444ed767c850337)
+        ;
+
+        
+    
+    
+            marker_8fc82d715ce842e69cf8a45d4c0bba66.bindTooltip(
+                `<div>
+                     國立彰化師範大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0490b3e68dee5e1884623fa2f1f41a96 = L.marker(
+                [24.93997118, 121.3637818],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_26a4049b0a73b49b78840e3d1fa9b933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aef471b380ebf6010975a3fdae8dd229 = $(`<div id="html_aef471b380ebf6010975a3fdae8dd229" style="width: 100.0%; height: 100.0%;"><b>國立臺北大學</b><br>新北市三峽區大學路151號<br>電話: (02)86741111<br><a href='http://new.ntpu.edu.tw/' target='_blank'>http://new.ntpu.edu.tw/</a></div>`)[0];
+                popup_26a4049b0a73b49b78840e3d1fa9b933.setContent(html_aef471b380ebf6010975a3fdae8dd229);
+            
+        
+
+        marker_0490b3e68dee5e1884623fa2f1f41a96.bindPopup(popup_26a4049b0a73b49b78840e3d1fa9b933)
+        ;
+
+        
+    
+    
+            marker_0490b3e68dee5e1884623fa2f1f41a96.bindTooltip(
+                `<div>
+                     國立臺北大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82b04d6061be33e9f0df4df15c87fbf3 = L.marker(
+                [23.46819578, 120.4812143],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_2db0689b7d71363896384b470d9501a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a711c3ec1d32c91c03d3d81f175ae49 = $(`<div id="html_3a711c3ec1d32c91c03d3d81f175ae49" style="width: 100.0%; height: 100.0%;"><b>國立嘉義大學</b><br>嘉義市東區鹿寮里學府路300號<br>電話: (05)2717000<br><a href='http://www.ncyu.edu.tw' target='_blank'>http://www.ncyu.edu.tw</a></div>`)[0];
+                popup_2db0689b7d71363896384b470d9501a4.setContent(html_3a711c3ec1d32c91c03d3d81f175ae49);
+            
+        
+
+        marker_82b04d6061be33e9f0df4df15c87fbf3.bindPopup(popup_2db0689b7d71363896384b470d9501a4)
+        ;
+
+        
+    
+    
+            marker_82b04d6061be33e9f0df4df15c87fbf3.bindTooltip(
+                `<div>
+                     國立嘉義大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6105a49b2c5c2d2db082dd9d4c2cbd33 = L.marker(
+                [22.73376867, 120.2823111],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5ff0a6eba2445ea6a771f728b8971542 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72725d182d0aa2441f600bd1bdcaa23 = $(`<div id="html_b72725d182d0aa2441f600bd1bdcaa23" style="width: 100.0%; height: 100.0%;"><b>國立高雄大學</b><br>高雄市楠梓區高雄大學路700號<br>電話: (07)5919000<br><a href='http://www.nuk.edu.tw' target='_blank'>http://www.nuk.edu.tw</a></div>`)[0];
+                popup_5ff0a6eba2445ea6a771f728b8971542.setContent(html_b72725d182d0aa2441f600bd1bdcaa23);
+            
+        
+
+        marker_6105a49b2c5c2d2db082dd9d4c2cbd33.bindPopup(popup_5ff0a6eba2445ea6a771f728b8971542)
+        ;
+
+        
+    
+    
+            marker_6105a49b2c5c2d2db082dd9d4c2cbd33.bindTooltip(
+                `<div>
+                     國立高雄大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe41fd978d66cd509dbf29ec206fab4b = L.marker(
+                [23.89643858, 121.5437136],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f090de76c1cdbb303f1f309239fa299a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_559c2a29015407afc641cfcdde18493c = $(`<div id="html_559c2a29015407afc641cfcdde18493c" style="width: 100.0%; height: 100.0%;"><b>國立東華大學</b><br>花蓮縣壽豐鄉志學村大學路二段1號<br>電話: (03)8903000<br><a href='http://www.ndhu.edu.tw' target='_blank'>http://www.ndhu.edu.tw</a></div>`)[0];
+                popup_f090de76c1cdbb303f1f309239fa299a.setContent(html_559c2a29015407afc641cfcdde18493c);
+            
+        
+
+        marker_fe41fd978d66cd509dbf29ec206fab4b.bindPopup(popup_f090de76c1cdbb303f1f309239fa299a)
+        ;
+
+        
+    
+    
+            marker_fe41fd978d66cd509dbf29ec206fab4b.bindTooltip(
+                `<div>
+                     國立東華大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb9e4e8785f89f753272889a598d0368 = L.marker(
+                [23.95114308, 120.92809],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_348426e386922105069ee5c9fa70747e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fddb09a8a396826bfd3f1d8adad40f96 = $(`<div id="html_fddb09a8a396826bfd3f1d8adad40f96" style="width: 100.0%; height: 100.0%;"><b>國立暨南國際大學</b><br>南投縣埔里鎮大學路1號<br>電話: (049)2910960#2996<br><a href='http://www.ncnu.edu.tw' target='_blank'>http://www.ncnu.edu.tw</a></div>`)[0];
+                popup_348426e386922105069ee5c9fa70747e.setContent(html_fddb09a8a396826bfd3f1d8adad40f96);
+            
+        
+
+        marker_fb9e4e8785f89f753272889a598d0368.bindPopup(popup_348426e386922105069ee5c9fa70747e)
+        ;
+
+        
+    
+    
+            marker_fb9e4e8785f89f753272889a598d0368.bindTooltip(
+                `<div>
+                     國立暨南國際大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f0afc48d16430053e28eb58a3e2235d = L.marker(
+                [25.01289978, 121.5402321],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_9c014b21ec9c84b0d034ee0d854da8b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1159ab56d0de75c727055391bdd2629 = $(`<div id="html_a1159ab56d0de75c727055391bdd2629" style="width: 100.0%; height: 100.0%;"><b>國立臺灣科技大學</b><br>臺北市大安區基隆路四段43號<br>電話: (02)27333141<br><a href='http://www.ntust.edu.tw' target='_blank'>http://www.ntust.edu.tw</a></div>`)[0];
+                popup_9c014b21ec9c84b0d034ee0d854da8b8.setContent(html_a1159ab56d0de75c727055391bdd2629);
+            
+        
+
+        marker_0f0afc48d16430053e28eb58a3e2235d.bindPopup(popup_9c014b21ec9c84b0d034ee0d854da8b8)
+        ;
+
+        
+    
+    
+            marker_0f0afc48d16430053e28eb58a3e2235d.bindTooltip(
+                `<div>
+                     國立臺灣科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d7771d3b5c7ced93fac7631cc39000c = L.marker(
+                [23.69584978, 120.531437],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3c3b859aca95df7256fde80db4ab9c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b94dd494db07080944c6632f9f8128 = $(`<div id="html_09b94dd494db07080944c6632f9f8128" style="width: 100.0%; height: 100.0%;"><b>國立雲林科技大學</b><br>雲林縣斗六市大學路三段123號<br>電話: (05)5342601<br><a href='http://www.yuntech.edu.tw' target='_blank'>http://www.yuntech.edu.tw</a></div>`)[0];
+                popup_3c3b859aca95df7256fde80db4ab9c40.setContent(html_09b94dd494db07080944c6632f9f8128);
+            
+        
+
+        marker_0d7771d3b5c7ced93fac7631cc39000c.bindPopup(popup_3c3b859aca95df7256fde80db4ab9c40)
+        ;
+
+        
+    
+    
+            marker_0d7771d3b5c7ced93fac7631cc39000c.bindTooltip(
+                `<div>
+                     國立雲林科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bee10f0c1058bfa2627ac2c0b585a39 = L.marker(
+                [22.64731248, 120.6147363],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4eb9b96958dbd479d73819fb6a970dbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_241807144d0efaaf49607778bcac62c3 = $(`<div id="html_241807144d0efaaf49607778bcac62c3" style="width: 100.0%; height: 100.0%;"><b>國立屏東科技大學</b><br>屏東縣內埔鄉老埤村學府路1號<br>電話: (08)7703202<br><a href='http://www.npust.edu.tw' target='_blank'>http://www.npust.edu.tw</a></div>`)[0];
+                popup_4eb9b96958dbd479d73819fb6a970dbf.setContent(html_241807144d0efaaf49607778bcac62c3);
+            
+        
+
+        marker_7bee10f0c1058bfa2627ac2c0b585a39.bindPopup(popup_4eb9b96958dbd479d73819fb6a970dbf)
+        ;
+
+        
+    
+    
+            marker_7bee10f0c1058bfa2627ac2c0b585a39.bindTooltip(
+                `<div>
+                     國立屏東科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_935e21d861645fd366a72af6bb0365c4 = L.marker(
+                [25.04206937, 121.5355146],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_867b7e31c8479bd1134e96a849eab26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0004a1a5ef247b4c762a7199415b39ab = $(`<div id="html_0004a1a5ef247b4c762a7199415b39ab" style="width: 100.0%; height: 100.0%;"><b>國立臺北科技大學</b><br>臺北市大安區忠孝東路三段1號<br>電話: (02)27712171<br><a href='http://www.ntut.edu.tw' target='_blank'>http://www.ntut.edu.tw</a></div>`)[0];
+                popup_867b7e31c8479bd1134e96a849eab26b.setContent(html_0004a1a5ef247b4c762a7199415b39ab);
+            
+        
+
+        marker_935e21d861645fd366a72af6bb0365c4.bindPopup(popup_867b7e31c8479bd1134e96a849eab26b)
+        ;
+
+        
+    
+    
+            marker_935e21d861645fd366a72af6bb0365c4.bindTooltip(
+                `<div>
+                     國立臺北科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d1d82e58c7cd0dfc3b8c3c4401605fa = L.marker(
+                [25.13359058, 121.4688357],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ba2f070db82eac46daa483dec9378588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c658bca87b7cf7a659499f95c96998 = $(`<div id="html_a2c658bca87b7cf7a659499f95c96998" style="width: 100.0%; height: 100.0%;"><b>國立臺北藝術大學</b><br>臺北市北投區學園路1號<br>電話: (02)28961000<br><a href='http://www.tnua.edu.tw' target='_blank'>http://www.tnua.edu.tw</a></div>`)[0];
+                popup_ba2f070db82eac46daa483dec9378588.setContent(html_a2c658bca87b7cf7a659499f95c96998);
+            
+        
+
+        marker_9d1d82e58c7cd0dfc3b8c3c4401605fa.bindPopup(popup_ba2f070db82eac46daa483dec9378588)
+        ;
+
+        
+    
+    
+            marker_9d1d82e58c7cd0dfc3b8c3c4401605fa.bindTooltip(
+                `<div>
+                     國立臺北藝術大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d85ba6f96d0391d2fa507362b6d66b5d = L.marker(
+                [25.00614157, 121.4462682],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_a0f5b85cb93f939cd814e459a146b2b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e00e4a5210c284e0bbb99956b71f4054 = $(`<div id="html_e00e4a5210c284e0bbb99956b71f4054" style="width: 100.0%; height: 100.0%;"><b>國立臺灣藝術大學</b><br>新北市板橋區大觀路一段59號<br>電話: (02)22722181<br><a href='http://www.ntua.edu.tw' target='_blank'>http://www.ntua.edu.tw</a></div>`)[0];
+                popup_a0f5b85cb93f939cd814e459a146b2b6.setContent(html_e00e4a5210c284e0bbb99956b71f4054);
+            
+        
+
+        marker_d85ba6f96d0391d2fa507362b6d66b5d.bindPopup(popup_a0f5b85cb93f939cd814e459a146b2b6)
+        ;
+
+        
+    
+    
+            marker_d85ba6f96d0391d2fa507362b6d66b5d.bindTooltip(
+                `<div>
+                     國立臺灣藝術大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_157f59af05a4b2aa378843a156fb1654 = L.marker(
+                [22.73693318, 121.0660229],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ebe1d9ff0c61970f12337ffdaf9460b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e0d8755f2a263e4e6e25b7c0391864 = $(`<div id="html_c5e0d8755f2a263e4e6e25b7c0391864" style="width: 100.0%; height: 100.0%;"><b>國立臺東大學</b><br>臺東縣臺東市大學路二段369號<br>電話: (089)318855<br><a href='http://www.nttu.edu.tw' target='_blank'>http://www.nttu.edu.tw</a></div>`)[0];
+                popup_ebe1d9ff0c61970f12337ffdaf9460b7.setContent(html_c5e0d8755f2a263e4e6e25b7c0391864);
+            
+        
+
+        marker_157f59af05a4b2aa378843a156fb1654.bindPopup(popup_ebe1d9ff0c61970f12337ffdaf9460b7)
+        ;
+
+        
+    
+    
+            marker_157f59af05a4b2aa378843a156fb1654.bindTooltip(
+                `<div>
+                     國立臺東大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d6569e8d60df1d46648fb6b9c96c94b = L.marker(
+                [24.74629237, 121.7450107],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_d71fb5693a29c5eba846de8827cdecd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f39284874b0a29e03fd5ede57611759 = $(`<div id="html_1f39284874b0a29e03fd5ede57611759" style="width: 100.0%; height: 100.0%;"><b>國立宜蘭大學</b><br>宜蘭縣宜蘭市神農路一段1號<br>電話: (03)9357400<br><a href='http://www.niu.edu.tw' target='_blank'>http://www.niu.edu.tw</a></div>`)[0];
+                popup_d71fb5693a29c5eba846de8827cdecd7.setContent(html_1f39284874b0a29e03fd5ede57611759);
+            
+        
+
+        marker_1d6569e8d60df1d46648fb6b9c96c94b.bindPopup(popup_d71fb5693a29c5eba846de8827cdecd7)
+        ;
+
+        
+    
+    
+            marker_1d6569e8d60df1d46648fb6b9c96c94b.bindTooltip(
+                `<div>
+                     國立宜蘭大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_198dc2d16f2d889a4d679bbcc9a8465f = L.marker(
+                [24.54582728, 120.80979],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_221ffb6b3f9b9e516dce470c226b2fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_982d06c5d471feadeee98c840043ad4f = $(`<div id="html_982d06c5d471feadeee98c840043ad4f" style="width: 100.0%; height: 100.0%;"><b>國立聯合大學</b><br>苗栗縣苗栗市恭敬里聯大1號<br>電話: (037)381000<br><a href='http://www.nuu.edu.tw' target='_blank'>http://www.nuu.edu.tw</a></div>`)[0];
+                popup_221ffb6b3f9b9e516dce470c226b2fb7.setContent(html_982d06c5d471feadeee98c840043ad4f);
+            
+        
+
+        marker_198dc2d16f2d889a4d679bbcc9a8465f.bindPopup(popup_221ffb6b3f9b9e516dce470c226b2fb7)
+        ;
+
+        
+    
+    
+            marker_198dc2d16f2d889a4d679bbcc9a8465f.bindTooltip(
+                `<div>
+                     國立聯合大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f54562491ec28dcd0e72496728224adb = L.marker(
+                [23.70155318, 120.4278711],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f9073747e6377586e554ad05f624091c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd91d44f3fe9eeb5734a7cdda52635b4 = $(`<div id="html_bd91d44f3fe9eeb5734a7cdda52635b4" style="width: 100.0%; height: 100.0%;"><b>國立虎尾科技大學</b><br>雲林縣虎尾鎮文化路64號<br>電話: (05)6315000<br><a href='http://www.nfu.edu.tw' target='_blank'>http://www.nfu.edu.tw</a></div>`)[0];
+                popup_f9073747e6377586e554ad05f624091c.setContent(html_bd91d44f3fe9eeb5734a7cdda52635b4);
+            
+        
+
+        marker_f54562491ec28dcd0e72496728224adb.bindPopup(popup_f9073747e6377586e554ad05f624091c)
+        ;
+
+        
+    
+    
+            marker_f54562491ec28dcd0e72496728224adb.bindTooltip(
+                `<div>
+                     國立虎尾科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0df600630220543a5eabfaa146e0a390 = L.marker(
+                [23.18712618, 120.3730326],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_56d784a30984a5b32f7faf5b348cada6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ec9cb00cf4c00f2567a03bd67e56ce0 = $(`<div id="html_7ec9cb00cf4c00f2567a03bd67e56ce0" style="width: 100.0%; height: 100.0%;"><b>國立臺南藝術大學</b><br>臺南市官田區大崎里大崎66號<br>電話: (06)6930100<br><a href='http://www.tnnua.edu.tw' target='_blank'>http://www.tnnua.edu.tw</a></div>`)[0];
+                popup_56d784a30984a5b32f7faf5b348cada6.setContent(html_7ec9cb00cf4c00f2567a03bd67e56ce0);
+            
+        
+
+        marker_0df600630220543a5eabfaa146e0a390.bindPopup(popup_56d784a30984a5b32f7faf5b348cada6)
+        ;
+
+        
+    
+    
+            marker_0df600630220543a5eabfaa146e0a390.bindTooltip(
+                `<div>
+                     國立臺南藝術大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9cc760e7e23f092a6567c34fa7767aa = L.marker(
+                [22.98478137, 120.2054229],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f16dc7b0b233d2018b556419c6ece4e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66777946c067dd35cecb828473b5f2ec = $(`<div id="html_66777946c067dd35cecb828473b5f2ec" style="width: 100.0%; height: 100.0%;"><b>國立臺南大學</b><br>臺南市中西區樹林街二段33號<br>電話: (06)2133111<br><a href='http://web.nutn.edu.tw' target='_blank'>http://web.nutn.edu.tw</a></div>`)[0];
+                popup_f16dc7b0b233d2018b556419c6ece4e3.setContent(html_66777946c067dd35cecb828473b5f2ec);
+            
+        
+
+        marker_f9cc760e7e23f092a6567c34fa7767aa.bindPopup(popup_f16dc7b0b233d2018b556419c6ece4e3)
+        ;
+
+        
+    
+    
+            marker_f9cc760e7e23f092a6567c34fa7767aa.bindTooltip(
+                `<div>
+                     國立臺南大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b159d19d8fdb4c91e82223aa2f4c2d8 = L.marker(
+                [25.02235877, 121.5416138],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_bd29d7cead94e9d3c5a3f5c9a1247a09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69dcec7244e4425de29df6ccdd49ab54 = $(`<div id="html_69dcec7244e4425de29df6ccdd49ab54" style="width: 100.0%; height: 100.0%;"><b>國立臺北教育大學</b><br>臺北市大安區和平東路二段134號<br>電話: (02)27321104<br><a href='http://www.ntue.edu.tw' target='_blank'>http://www.ntue.edu.tw</a></div>`)[0];
+                popup_bd29d7cead94e9d3c5a3f5c9a1247a09.setContent(html_69dcec7244e4425de29df6ccdd49ab54);
+            
+        
+
+        marker_9b159d19d8fdb4c91e82223aa2f4c2d8.bindPopup(popup_bd29d7cead94e9d3c5a3f5c9a1247a09)
+        ;
+
+        
+    
+    
+            marker_9b159d19d8fdb4c91e82223aa2f4c2d8.bindTooltip(
+                `<div>
+                     國立臺北教育大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62a45e793ec3f6eb05112fd9adc4aa5f = L.marker(
+                [24.14378418, 120.6692466],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_2c565a452ba1f3d6c6ba014b68d9431c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b89fdbdf0ea1743b989cff0d6e1801f = $(`<div id="html_6b89fdbdf0ea1743b989cff0d6e1801f" style="width: 100.0%; height: 100.0%;"><b>國立臺中教育大學</b><br>臺中市西區民生路140號<br>電話: (04)22183199<br><a href='http://www.ntcu.edu.tw' target='_blank'>http://www.ntcu.edu.tw</a></div>`)[0];
+                popup_2c565a452ba1f3d6c6ba014b68d9431c.setContent(html_6b89fdbdf0ea1743b989cff0d6e1801f);
+            
+        
+
+        marker_62a45e793ec3f6eb05112fd9adc4aa5f.bindPopup(popup_2c565a452ba1f3d6c6ba014b68d9431c)
+        ;
+
+        
+    
+    
+            marker_62a45e793ec3f6eb05112fd9adc4aa5f.bindTooltip(
+                `<div>
+                     國立臺中教育大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddbb38f40833ef509fd2442abf723851 = L.marker(
+                [23.57400438, 119.5787151],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ce1c04490508c4de3f940c8b38f78867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6613bd3af2484ef19053ca536d75c186 = $(`<div id="html_6613bd3af2484ef19053ca536d75c186" style="width: 100.0%; height: 100.0%;"><b>國立澎湖科技大學</b><br>澎湖縣馬公市六合路300號<br>電話: (06)9264115<br><a href='http://www.npu.edu.tw' target='_blank'>http://www.npu.edu.tw</a></div>`)[0];
+                popup_ce1c04490508c4de3f940c8b38f78867.setContent(html_6613bd3af2484ef19053ca536d75c186);
+            
+        
+
+        marker_ddbb38f40833ef509fd2442abf723851.bindPopup(popup_ce1c04490508c4de3f940c8b38f78867)
+        ;
+
+        
+    
+    
+            marker_ddbb38f40833ef509fd2442abf723851.bindTooltip(
+                `<div>
+                     國立澎湖科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29dc8d9f1edf6b9cfa12da589b0e36b7 = L.marker(
+                [24.14655808, 120.7307829],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e3057a22a46c8c589080c7be98725674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a3382f695212a64d076956911036a07 = $(`<div id="html_3a3382f695212a64d076956911036a07" style="width: 100.0%; height: 100.0%;"><b>國立勤益科技大學</b><br>臺中市太平區坪林里中山路二段57號<br>電話: (04)23924505<br><a href='http://www.ncut.edu.tw' target='_blank'>http://www.ncut.edu.tw</a></div>`)[0];
+                popup_e3057a22a46c8c589080c7be98725674.setContent(html_3a3382f695212a64d076956911036a07);
+            
+        
+
+        marker_29dc8d9f1edf6b9cfa12da589b0e36b7.bindPopup(popup_e3057a22a46c8c589080c7be98725674)
+        ;
+
+        
+    
+    
+            marker_29dc8d9f1edf6b9cfa12da589b0e36b7.bindTooltip(
+                `<div>
+                     國立勤益科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f420cdcc29e3de533b5143e52522be09 = L.marker(
+                [25.03138658, 121.3850832],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_2212154eabd417c7ad9907436d060157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6885493dbec4d05bd8ee8cd5b1daf242 = $(`<div id="html_6885493dbec4d05bd8ee8cd5b1daf242" style="width: 100.0%; height: 100.0%;"><b>國立體育大學</b><br>桃園市龜山區文化一路250號<br>電話: (03)3283201<br><a href='http://www.ntsu.edu.tw' target='_blank'>http://www.ntsu.edu.tw</a></div>`)[0];
+                popup_2212154eabd417c7ad9907436d060157.setContent(html_6885493dbec4d05bd8ee8cd5b1daf242);
+            
+        
+
+        marker_f420cdcc29e3de533b5143e52522be09.bindPopup(popup_2212154eabd417c7ad9907436d060157)
+        ;
+
+        
+    
+    
+            marker_f420cdcc29e3de533b5143e52522be09.bindTooltip(
+                `<div>
+                     國立體育大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b5863e08cb5ee104feb1529e0e07f2a = L.marker(
+                [25.11850417, 121.5184457],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_fbe3b5683b85689cf3e9e4a84518651b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80dd58378ae841ac30dbfb5a6c9df53f = $(`<div id="html_80dd58378ae841ac30dbfb5a6c9df53f" style="width: 100.0%; height: 100.0%;"><b>國立臺北護理健康大學</b><br>臺北市北投區明德路365號<br>電話: (02)28227101<br><a href='http://www.ntunhs.edu.tw' target='_blank'>http://www.ntunhs.edu.tw</a></div>`)[0];
+                popup_fbe3b5683b85689cf3e9e4a84518651b.setContent(html_80dd58378ae841ac30dbfb5a6c9df53f);
+            
+        
+
+        marker_6b5863e08cb5ee104feb1529e0e07f2a.bindPopup(popup_fbe3b5683b85689cf3e9e4a84518651b)
+        ;
+
+        
+    
+    
+            marker_6b5863e08cb5ee104feb1529e0e07f2a.bindTooltip(
+                `<div>
+                     國立臺北護理健康大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fa9387585b7a4869d5d054561da887c = L.marker(
+                [22.56571618, 120.369062],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1761452ec0fe7b1c0cf0879ce6412a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b76e1564d4c7caed47b08dc4410188aa = $(`<div id="html_b76e1564d4c7caed47b08dc4410188aa" style="width: 100.0%; height: 100.0%;"><b>國立高雄餐旅大學</b><br>高雄市小港區松和路1號<br>電話: (07)8060505<br><a href='https://www.nkuht.edu.tw/p/403-1000-18.php' target='_blank'>https://www.nkuht.edu.tw/p/403-1000-18.php</a></div>`)[0];
+                popup_1761452ec0fe7b1c0cf0879ce6412a32.setContent(html_b76e1564d4c7caed47b08dc4410188aa);
+            
+        
+
+        marker_4fa9387585b7a4869d5d054561da887c.bindPopup(popup_1761452ec0fe7b1c0cf0879ce6412a32)
+        ;
+
+        
+    
+    
+            marker_4fa9387585b7a4869d5d054561da887c.bindTooltip(
+                `<div>
+                     國立高雄餐旅大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97d0cf4b181aab5a26368385902fb197 = L.marker(
+                [24.45003737, 118.3196571],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f997e78ac63e76c0d288c4276e21ed19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45893cb0e31340cfe4a3f574c0f6903c = $(`<div id="html_45893cb0e31340cfe4a3f574c0f6903c" style="width: 100.0%; height: 100.0%;"><b>國立金門大學</b><br>金門縣金寧鄉大學路1號<br>電話: (082)313300<br><a href='http://www.nqu.edu.tw/cht/index.php' target='_blank'>http://www.nqu.edu.tw/cht/index.php</a></div>`)[0];
+                popup_f997e78ac63e76c0d288c4276e21ed19.setContent(html_45893cb0e31340cfe4a3f574c0f6903c);
+            
+        
+
+        marker_97d0cf4b181aab5a26368385902fb197.bindPopup(popup_f997e78ac63e76c0d288c4276e21ed19)
+        ;
+
+        
+    
+    
+            marker_97d0cf4b181aab5a26368385902fb197.bindTooltip(
+                `<div>
+                     國立金門大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0065b4cedc46d1d637fa402b7833631 = L.marker(
+                [24.14904018, 120.6848245],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_37a191a6c2fa2d6c29bf2055add233f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d49c6a5ec535620a0525d3115d16175 = $(`<div id="html_4d49c6a5ec535620a0525d3115d16175" style="width: 100.0%; height: 100.0%;"><b>國立臺灣體育運動大學</b><br>臺中市北區雙十路一段16號<br>電話: (04)22213108<br><a href='https://www.ntus.edu.tw/cht/index.php' target='_blank'>https://www.ntus.edu.tw/cht/index.php</a></div>`)[0];
+                popup_37a191a6c2fa2d6c29bf2055add233f6.setContent(html_4d49c6a5ec535620a0525d3115d16175);
+            
+        
+
+        marker_c0065b4cedc46d1d637fa402b7833631.bindPopup(popup_37a191a6c2fa2d6c29bf2055add233f6)
+        ;
+
+        
+    
+    
+            marker_c0065b4cedc46d1d637fa402b7833631.bindTooltip(
+                `<div>
+                     國立臺灣體育運動大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eba34fc49f927304d72b1e787362c981 = L.marker(
+                [24.14971717, 120.6810044],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_baefe5fd09e698030f1a1511e3344b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025a13b5a9b3ece7b513b55e11254565 = $(`<div id="html_025a13b5a9b3ece7b513b55e11254565" style="width: 100.0%; height: 100.0%;"><b>國立臺中科技大學</b><br>臺中市北區三民路三段129號<br>電話: (04)22195678<br><a href='http://www.nutc.edu.tw/bin/home.php' target='_blank'>http://www.nutc.edu.tw/bin/home.php</a></div>`)[0];
+                popup_baefe5fd09e698030f1a1511e3344b05.setContent(html_025a13b5a9b3ece7b513b55e11254565);
+            
+        
+
+        marker_eba34fc49f927304d72b1e787362c981.bindPopup(popup_baefe5fd09e698030f1a1511e3344b05)
+        ;
+
+        
+    
+    
+            marker_eba34fc49f927304d72b1e787362c981.bindTooltip(
+                `<div>
+                     國立臺中科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c037cc218bf04297a6f4944e989137c6 = L.marker(
+                [25.04189338, 121.5229783],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_861b685e4273bf7e249267257debb185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b46f66f6bdb5e26a039bb0cb72daf581 = $(`<div id="html_b46f66f6bdb5e26a039bb0cb72daf581" style="width: 100.0%; height: 100.0%;"><b>國立臺北商業大學</b><br>臺北市中正區濟南路一段321號<br>電話: (02)33222777<br><a href='http://www.ntub.edu.tw' target='_blank'>http://www.ntub.edu.tw</a></div>`)[0];
+                popup_861b685e4273bf7e249267257debb185.setContent(html_b46f66f6bdb5e26a039bb0cb72daf581);
+            
+        
+
+        marker_c037cc218bf04297a6f4944e989137c6.bindPopup(popup_861b685e4273bf7e249267257debb185)
+        ;
+
+        
+    
+    
+            marker_c037cc218bf04297a6f4944e989137c6.bindTooltip(
+                `<div>
+                     國立臺北商業大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3e701d418906b457cf7a96ceca07d02 = L.marker(
+                [22.66547598, 120.5019708],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6a0751582808374ea7d897cfab04ed3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2948894d06b3845fd75c723cf74b3835 = $(`<div id="html_2948894d06b3845fd75c723cf74b3835" style="width: 100.0%; height: 100.0%;"><b>國立屏東大學</b><br>屏東縣屏東市民生路4-18號<br>電話: (08)7663800<br><a href='http://www.nptu.edu.tw' target='_blank'>http://www.nptu.edu.tw</a></div>`)[0];
+                popup_6a0751582808374ea7d897cfab04ed3f.setContent(html_2948894d06b3845fd75c723cf74b3835);
+            
+        
+
+        marker_d3e701d418906b457cf7a96ceca07d02.bindPopup(popup_6a0751582808374ea7d897cfab04ed3f)
+        ;
+
+        
+    
+    
+            marker_d3e701d418906b457cf7a96ceca07d02.bindTooltip(
+                `<div>
+                     國立屏東大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85d04961539a636ff47ad63817d550b0 = L.marker(
+                [22.65171058, 120.3258494],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_68d9a5075dda9677b4cf39ab6ea2c898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f34361a1f495cc801a0e6e459e3a58c8 = $(`<div id="html_f34361a1f495cc801a0e6e459e3a58c8" style="width: 100.0%; height: 100.0%;"><b>國立高雄科技大學</b><br>高雄市三民區建工路415號<br>電話: (07)3814526<br><a href='http://www.nkust.edu.tw' target='_blank'>http://www.nkust.edu.tw</a></div>`)[0];
+                popup_68d9a5075dda9677b4cf39ab6ea2c898.setContent(html_f34361a1f495cc801a0e6e459e3a58c8);
+            
+        
+
+        marker_85d04961539a636ff47ad63817d550b0.bindPopup(popup_68d9a5075dda9677b4cf39ab6ea2c898)
+        ;
+
+        
+    
+    
+            marker_85d04961539a636ff47ad63817d550b0.bindTooltip(
+                `<div>
+                     國立高雄科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22e14514c8b488eae0de9972997a6c2a = L.marker(
+                [25.08245818, 121.5842949],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_503065dfbb8312ac84365b7a480b71a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fcfa4a98e81efd39cd81fa3e124dcbf = $(`<div id="html_6fcfa4a98e81efd39cd81fa3e124dcbf" style="width: 100.0%; height: 100.0%;"><b>國立臺灣戲曲學院</b><br>臺北市內湖區內湖路二段177號<br>電話: (02)27962666<br><a href='http://www.tcpa.edu.tw/' target='_blank'>http://www.tcpa.edu.tw/</a></div>`)[0];
+                popup_503065dfbb8312ac84365b7a480b71a1.setContent(html_6fcfa4a98e81efd39cd81fa3e124dcbf);
+            
+        
+
+        marker_22e14514c8b488eae0de9972997a6c2a.bindPopup(popup_503065dfbb8312ac84365b7a480b71a1)
+        ;
+
+        
+    
+    
+            marker_22e14514c8b488eae0de9972997a6c2a.bindTooltip(
+                `<div>
+                     國立臺灣戲曲學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4983f3d0bcca5d68f4a7fe08a02b8783 = L.marker(
+                [22.99567847, 120.2046635],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e7b16d55b4a138266db9c475f47cca74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5202e4eece494e588efe1b839cad4ae = $(`<div id="html_a5202e4eece494e588efe1b839cad4ae" style="width: 100.0%; height: 100.0%;"><b>國立臺南護理專科學校</b><br>臺南市中西區民族路二段78號<br>電話: (06)2110600<br><a href='http://www.ntin.edu.tw' target='_blank'>http://www.ntin.edu.tw</a></div>`)[0];
+                popup_e7b16d55b4a138266db9c475f47cca74.setContent(html_a5202e4eece494e588efe1b839cad4ae);
+            
+        
+
+        marker_4983f3d0bcca5d68f4a7fe08a02b8783.bindPopup(popup_e7b16d55b4a138266db9c475f47cca74)
+        ;
+
+        
+    
+    
+            marker_4983f3d0bcca5d68f4a7fe08a02b8783.bindTooltip(
+                `<div>
+                     國立臺南護理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_411643ce2ac5fa56114918e3ad033ea4 = L.marker(
+                [22.75706538, 121.120855],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_38ba5f820432a49c7f68fb6e081dbf43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d6ccaa3a513aae9c07fe27372cd7682 = $(`<div id="html_8d6ccaa3a513aae9c07fe27372cd7682" style="width: 100.0%; height: 100.0%;"><b>國立臺東專科學校</b><br>臺東縣臺東市正氣北路889號<br>電話: (089)226389<br><a href='http://www.ntc.edu.tw' target='_blank'>http://www.ntc.edu.tw</a></div>`)[0];
+                popup_38ba5f820432a49c7f68fb6e081dbf43.setContent(html_8d6ccaa3a513aae9c07fe27372cd7682);
+            
+        
+
+        marker_411643ce2ac5fa56114918e3ad033ea4.bindPopup(popup_38ba5f820432a49c7f68fb6e081dbf43)
+        ;
+
+        
+    
+    
+            marker_411643ce2ac5fa56114918e3ad033ea4.bindTooltip(
+                `<div>
+                     國立臺東專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcd38451547ad025b54053afc8f0ec29 = L.marker(
+                [24.18044257, 120.5959572],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_0509622cd785a300068a5566d86a5bde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76fe0fe8cf08aedfc9d601a25ec96c65 = $(`<div id="html_76fe0fe8cf08aedfc9d601a25ec96c65" style="width: 100.0%; height: 100.0%;"><b>東海大學</b><br>臺中市西屯區臺灣大道四段1727號<br>電話: (04)23590121<br><a href='https://www.thu.edu.tw/' target='_blank'>https://www.thu.edu.tw/</a></div>`)[0];
+                popup_0509622cd785a300068a5566d86a5bde.setContent(html_76fe0fe8cf08aedfc9d601a25ec96c65);
+            
+        
+
+        marker_dcd38451547ad025b54053afc8f0ec29.bindPopup(popup_0509622cd785a300068a5566d86a5bde)
+        ;
+
+        
+    
+    
+            marker_dcd38451547ad025b54053afc8f0ec29.bindTooltip(
+                `<div>
+                     東海大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25bd8a0fdec4eb24e295f65e6daa6825 = L.marker(
+                [25.03635707, 121.4298624],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_0c831a61390fb95a858306b50b15d715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_352b257130de30dc7cd87e96e0e1ad2e = $(`<div id="html_352b257130de30dc7cd87e96e0e1ad2e" style="width: 100.0%; height: 100.0%;"><b>輔仁大學</b><br>新北市新莊區中正路510號<br>電話: (02)29052000<br><a href='http://www.fju.edu.tw' target='_blank'>http://www.fju.edu.tw</a></div>`)[0];
+                popup_0c831a61390fb95a858306b50b15d715.setContent(html_352b257130de30dc7cd87e96e0e1ad2e);
+            
+        
+
+        marker_25bd8a0fdec4eb24e295f65e6daa6825.bindPopup(popup_0c831a61390fb95a858306b50b15d715)
+        ;
+
+        
+    
+    
+            marker_25bd8a0fdec4eb24e295f65e6daa6825.bindTooltip(
+                `<div>
+                     輔仁大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_712a4382322b65a8f1d99091ede83a5a = L.marker(
+                [25.09441578, 121.5430007],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_7cf035517818b417e5ea4655f43034c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_035f202c366a9a1a056eb05ee5077e6e = $(`<div id="html_035f202c366a9a1a056eb05ee5077e6e" style="width: 100.0%; height: 100.0%;"><b>東吳大學</b><br>臺北市士林區臨溪路70號<br>電話: (02)28819471<br><a href='http://www.scu.edu.tw' target='_blank'>http://www.scu.edu.tw</a></div>`)[0];
+                popup_7cf035517818b417e5ea4655f43034c1.setContent(html_035f202c366a9a1a056eb05ee5077e6e);
+            
+        
+
+        marker_712a4382322b65a8f1d99091ede83a5a.bindPopup(popup_7cf035517818b417e5ea4655f43034c1)
+        ;
+
+        
+    
+    
+            marker_712a4382322b65a8f1d99091ede83a5a.bindTooltip(
+                `<div>
+                     東吳大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_065f44179b4a00e8d94ff91f519e32ab = L.marker(
+                [24.95746137, 121.2380225],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_7c91c871c9e1568aa9ed6cf4a06eba7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f3bc90d110825761738d46f40ffb2e = $(`<div id="html_52f3bc90d110825761738d46f40ffb2e" style="width: 100.0%; height: 100.0%;"><b>中原大學</b><br>桃園市中壢區中北路200號<br>電話: (03)2659999<br><a href='http://www.cycu.edu.tw' target='_blank'>http://www.cycu.edu.tw</a></div>`)[0];
+                popup_7c91c871c9e1568aa9ed6cf4a06eba7f.setContent(html_52f3bc90d110825761738d46f40ffb2e);
+            
+        
+
+        marker_065f44179b4a00e8d94ff91f519e32ab.bindPopup(popup_7c91c871c9e1568aa9ed6cf4a06eba7f)
+        ;
+
+        
+    
+    
+            marker_065f44179b4a00e8d94ff91f519e32ab.bindTooltip(
+                `<div>
+                     中原大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ec0eb61728e621006e08a86b33c340b = L.marker(
+                [25.17319067, 121.4458821],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e53b9a7e5ca8a30529233832c28e5f5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_177efb0447007b4b721918e6bff983ae = $(`<div id="html_177efb0447007b4b721918e6bff983ae" style="width: 100.0%; height: 100.0%;"><b>淡江大學</b><br>新北市淡水區英專路151號<br>電話: (02)26215656<br><a href='http://www.tku.edu.tw' target='_blank'>http://www.tku.edu.tw</a></div>`)[0];
+                popup_e53b9a7e5ca8a30529233832c28e5f5b.setContent(html_177efb0447007b4b721918e6bff983ae);
+            
+        
+
+        marker_9ec0eb61728e621006e08a86b33c340b.bindPopup(popup_e53b9a7e5ca8a30529233832c28e5f5b)
+        ;
+
+        
+    
+    
+            marker_9ec0eb61728e621006e08a86b33c340b.bindTooltip(
+                `<div>
+                     淡江大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7405b7aa10b53443c63bcd6aadc7184 = L.marker(
+                [25.13681507, 121.5355769],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_b2c43bd7def0e3db3f6f69af26f51128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17fa0e9e82a46c97e0ba651e5d4480e0 = $(`<div id="html_17fa0e9e82a46c97e0ba651e5d4480e0" style="width: 100.0%; height: 100.0%;"><b>中國文化大學</b><br>臺北市士林區華岡路55號<br>電話: (02)28610511<br><a href='http://www.pccu.edu.tw' target='_blank'>http://www.pccu.edu.tw</a></div>`)[0];
+                popup_b2c43bd7def0e3db3f6f69af26f51128.setContent(html_17fa0e9e82a46c97e0ba651e5d4480e0);
+            
+        
+
+        marker_f7405b7aa10b53443c63bcd6aadc7184.bindPopup(popup_b2c43bd7def0e3db3f6f69af26f51128)
+        ;
+
+        
+    
+    
+            marker_f7405b7aa10b53443c63bcd6aadc7184.bindTooltip(
+                `<div>
+                     中國文化大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d14833346fa65b54f64c526ba7056b5b = L.marker(
+                [24.17804768, 120.6440276],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_dc5e23334dedb6422bb96ff6098c0c77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ff7070915cb74a3daa1df14fc4aa03 = $(`<div id="html_c8ff7070915cb74a3daa1df14fc4aa03" style="width: 100.0%; height: 100.0%;"><b>逢甲大學</b><br>臺中市西屯區文華路100號<br>電話: (04)24517250<br><a href='http://www.fcu.edu.tw' target='_blank'>http://www.fcu.edu.tw</a></div>`)[0];
+                popup_dc5e23334dedb6422bb96ff6098c0c77.setContent(html_c8ff7070915cb74a3daa1df14fc4aa03);
+            
+        
+
+        marker_d14833346fa65b54f64c526ba7056b5b.bindPopup(popup_dc5e23334dedb6422bb96ff6098c0c77)
+        ;
+
+        
+    
+    
+            marker_d14833346fa65b54f64c526ba7056b5b.bindTooltip(
+                `<div>
+                     逢甲大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_691a9ca1632dc8feb61aa8b3a1f7bab1 = L.marker(
+                [24.22580268, 120.5746164],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_d28e533bb971955ed2663a0de1ba6bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0b90455b57a8f90cd21e30d1bd9388c = $(`<div id="html_b0b90455b57a8f90cd21e30d1bd9388c" style="width: 100.0%; height: 100.0%;"><b>靜宜大學</b><br>臺中市沙鹿區臺灣大道七段200號<br>電話: (04)26328001<br><a href='http://www.pu.edu.tw' target='_blank'>http://www.pu.edu.tw</a></div>`)[0];
+                popup_d28e533bb971955ed2663a0de1ba6bd8.setContent(html_b0b90455b57a8f90cd21e30d1bd9388c);
+            
+        
+
+        marker_691a9ca1632dc8feb61aa8b3a1f7bab1.bindPopup(popup_d28e533bb971955ed2663a0de1ba6bd8)
+        ;
+
+        
+    
+    
+            marker_691a9ca1632dc8feb61aa8b3a1f7bab1.bindTooltip(
+                `<div>
+                     靜宜大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2901778db930d35107d05b5dd485984e = L.marker(
+                [25.03339057, 121.3849584],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5ab80cec7ec013c77f9cd68eda52a9e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e1d791c39a37fe0473ffa7cb0bdd93 = $(`<div id="html_c5e1d791c39a37fe0473ffa7cb0bdd93" style="width: 100.0%; height: 100.0%;"><b>長庚大學</b><br>桃園市龜山區文化一路259號<br>電話: (03)2118800<br><a href='http://www.cgu.edu.tw' target='_blank'>http://www.cgu.edu.tw</a></div>`)[0];
+                popup_5ab80cec7ec013c77f9cd68eda52a9e6.setContent(html_c5e1d791c39a37fe0473ffa7cb0bdd93);
+            
+        
+
+        marker_2901778db930d35107d05b5dd485984e.bindPopup(popup_5ab80cec7ec013c77f9cd68eda52a9e6)
+        ;
+
+        
+    
+    
+            marker_2901778db930d35107d05b5dd485984e.bindTooltip(
+                `<div>
+                     長庚大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b16881f4b9268600672d809b8656a10 = L.marker(
+                [24.96995188, 121.2608742],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4c0a4ce07cd8f0aa311d287afb2b0c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98749cbb950407f7343659ef184ebf6c = $(`<div id="html_98749cbb950407f7343659ef184ebf6c" style="width: 100.0%; height: 100.0%;"><b>元智大學</b><br>桃園市中壢區遠東路135號<br>電話: (03)4638800<br><a href='http://www.yzu.edu.tw' target='_blank'>http://www.yzu.edu.tw</a></div>`)[0];
+                popup_4c0a4ce07cd8f0aa311d287afb2b0c3f.setContent(html_98749cbb950407f7343659ef184ebf6c);
+            
+        
+
+        marker_1b16881f4b9268600672d809b8656a10.bindPopup(popup_4c0a4ce07cd8f0aa311d287afb2b0c3f)
+        ;
+
+        
+    
+    
+            marker_1b16881f4b9268600672d809b8656a10.bindTooltip(
+                `<div>
+                     元智大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a166b4b4fbe3018cafcb85c1ed0b567 = L.marker(
+                [24.75707377, 120.9501156],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1a7d82d2b5532e959718644b94bbf7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75f3a44804b83bb9fc40dc607d86737a = $(`<div id="html_75f3a44804b83bb9fc40dc607d86737a" style="width: 100.0%; height: 100.0%;"><b>中華大學</b><br>新竹市香山區東香里五福路二段707號<br>電話: (03)5374281~5<br><a href='http://www.chu.edu.tw' target='_blank'>http://www.chu.edu.tw</a></div>`)[0];
+                popup_1a7d82d2b5532e959718644b94bbf7b9.setContent(html_75f3a44804b83bb9fc40dc607d86737a);
+            
+        
+
+        marker_7a166b4b4fbe3018cafcb85c1ed0b567.bindPopup(popup_1a7d82d2b5532e959718644b94bbf7b9)
+        ;
+
+        
+    
+    
+            marker_7a166b4b4fbe3018cafcb85c1ed0b567.bindTooltip(
+                `<div>
+                     中華大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1358d712f6bfd359fda9f0c7d9fd3d24 = L.marker(
+                [24.00152217, 120.5958195],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6948168d49220deb77778548f9623de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50d5ea81f6f4d117ee9be7679b40820d = $(`<div id="html_50d5ea81f6f4d117ee9be7679b40820d" style="width: 100.0%; height: 100.0%;"><b>大葉大學</b><br>彰化縣大村鄉學府路168號<br>電話: (04)8511888<br><a href='http://www.dyu.edu.tw' target='_blank'>http://www.dyu.edu.tw</a></div>`)[0];
+                popup_6948168d49220deb77778548f9623de2.setContent(html_50d5ea81f6f4d117ee9be7679b40820d);
+            
+        
+
+        marker_1358d712f6bfd359fda9f0c7d9fd3d24.bindPopup(popup_6948168d49220deb77778548f9623de2)
+        ;
+
+        
+    
+    
+            marker_1358d712f6bfd359fda9f0c7d9fd3d24.bindTooltip(
+                `<div>
+                     大葉大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78dd5841f7301451bc44f6092e887fe7 = L.marker(
+                [24.98110558, 121.6882302],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_74bf1b2fc4d00b6a57c635cca20c06be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3987ffc7d635e1d4f4de35bb1711bd5 = $(`<div id="html_b3987ffc7d635e1d4f4de35bb1711bd5" style="width: 100.0%; height: 100.0%;"><b>華梵大學</b><br>新北市石碇區華梵路1號<br>電話: (02)26632102<br><a href='http://www.hfu.edu.tw' target='_blank'>http://www.hfu.edu.tw</a></div>`)[0];
+                popup_74bf1b2fc4d00b6a57c635cca20c06be.setContent(html_b3987ffc7d635e1d4f4de35bb1711bd5);
+            
+        
+
+        marker_78dd5841f7301451bc44f6092e887fe7.bindPopup(popup_74bf1b2fc4d00b6a57c635cca20c06be)
+        ;
+
+        
+    
+    
+            marker_78dd5841f7301451bc44f6092e887fe7.bindTooltip(
+                `<div>
+                     華梵大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03173e2d8a4570675e57c7c128fdc0de = L.marker(
+                [22.72713918, 120.4032497],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_a6869654e09883266df3ea5756340c10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e8a9016238160d1f137b45fa720acf = $(`<div id="html_c5e8a9016238160d1f137b45fa720acf" style="width: 100.0%; height: 100.0%;"><b>義守大學</b><br>高雄市大樹區三和里學城路一段1號<br>電話: (07)6577711<br><a href='http://www.isu.edu.tw' target='_blank'>http://www.isu.edu.tw</a></div>`)[0];
+                popup_a6869654e09883266df3ea5756340c10.setContent(html_c5e8a9016238160d1f137b45fa720acf);
+            
+        
+
+        marker_03173e2d8a4570675e57c7c128fdc0de.bindPopup(popup_a6869654e09883266df3ea5756340c10)
+        ;
+
+        
+    
+    
+            marker_03173e2d8a4570675e57c7c128fdc0de.bindTooltip(
+                `<div>
+                     義守大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fac91d7fd97a2b399af32d875dc081e6 = L.marker(
+                [24.98864528, 121.5416319],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1a8c686e3c51e8ea8bd34d74b00c753c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddbe6897dfb0796edfba1da874ca92af = $(`<div id="html_ddbe6897dfb0796edfba1da874ca92af" style="width: 100.0%; height: 100.0%;"><b>世新大學</b><br>臺北市文山區木柵路一段17巷1號<br>電話: (02)22368225<br><a href='http://www.shu.edu.tw' target='_blank'>http://www.shu.edu.tw</a></div>`)[0];
+                popup_1a8c686e3c51e8ea8bd34d74b00c753c.setContent(html_ddbe6897dfb0796edfba1da874ca92af);
+            
+        
+
+        marker_fac91d7fd97a2b399af32d875dc081e6.bindPopup(popup_1a8c686e3c51e8ea8bd34d74b00c753c)
+        ;
+
+        
+    
+    
+            marker_fac91d7fd97a2b399af32d875dc081e6.bindTooltip(
+                `<div>
+                     世新大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b5578e1920e32e857e813d8610db8df = L.marker(
+                [25.08623707, 121.5259286],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_0f6af8ef01ad25c7edbe92b54f513102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee1f7c90f030c4792c294775ea0c3086 = $(`<div id="html_ee1f7c90f030c4792c294775ea0c3086" style="width: 100.0%; height: 100.0%;"><b>銘傳大學</b><br>臺北市士林區中山北路五段250號<br>電話: (02)28824564<br><a href='http://www.mcu.edu.tw' target='_blank'>http://www.mcu.edu.tw</a></div>`)[0];
+                popup_0f6af8ef01ad25c7edbe92b54f513102.setContent(html_ee1f7c90f030c4792c294775ea0c3086);
+            
+        
+
+        marker_5b5578e1920e32e857e813d8610db8df.bindPopup(popup_0f6af8ef01ad25c7edbe92b54f513102)
+        ;
+
+        
+    
+    
+            marker_5b5578e1920e32e857e813d8610db8df.bindTooltip(
+                `<div>
+                     銘傳大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b21b841596206721aad15fe857b0fe3f = L.marker(
+                [25.08373908, 121.5435161],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_2730169593e45021cda17e84641de614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6aa5fd9d010ae9cd9749fcf6235db42 = $(`<div id="html_c6aa5fd9d010ae9cd9749fcf6235db42" style="width: 100.0%; height: 100.0%;"><b>實踐大學</b><br>臺北市中山區大直街70號<br>電話: (02)25381111<br><a href='https://www.usc.edu.tw/' target='_blank'>https://www.usc.edu.tw/</a></div>`)[0];
+                popup_2730169593e45021cda17e84641de614.setContent(html_c6aa5fd9d010ae9cd9749fcf6235db42);
+            
+        
+
+        marker_b21b841596206721aad15fe857b0fe3f.bindPopup(popup_2730169593e45021cda17e84641de614)
+        ;
+
+        
+    
+    
+            marker_b21b841596206721aad15fe857b0fe3f.bindTooltip(
+                `<div>
+                     實踐大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6b1d6d991333e5937887a2e56a64923 = L.marker(
+                [24.06971738, 120.7122505],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_91c9a81ad071e2162c3778c4ee039b9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a2a6ca1eaf800f6be0baf0b4c886ff1 = $(`<div id="html_2a2a6ca1eaf800f6be0baf0b4c886ff1" style="width: 100.0%; height: 100.0%;"><b>朝陽科技大學</b><br>臺中市霧峰區吉峰東路168號<br>電話: (04)23323000<br><a href='http://www.cyut.edu.tw' target='_blank'>http://www.cyut.edu.tw</a></div>`)[0];
+                popup_91c9a81ad071e2162c3778c4ee039b9e.setContent(html_2a2a6ca1eaf800f6be0baf0b4c886ff1);
+            
+        
+
+        marker_e6b1d6d991333e5937887a2e56a64923.bindPopup(popup_91c9a81ad071e2162c3778c4ee039b9e)
+        ;
+
+        
+    
+    
+            marker_e6b1d6d991333e5937887a2e56a64923.bindTooltip(
+                `<div>
+                     朝陽科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_323a96b908e94953866672a5436c18ff = L.marker(
+                [22.64539597, 120.3076396],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_aa67c272536af8dd5df100ed69a659b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_148492a9697eb404e6894176bf693ee6 = $(`<div id="html_148492a9697eb404e6894176bf693ee6" style="width: 100.0%; height: 100.0%;"><b>高雄醫學大學</b><br>高雄市三民區十全一路100號<br>電話: (07)3121101<br><a href='http://www2.kmu.edu.tw' target='_blank'>http://www2.kmu.edu.tw</a></div>`)[0];
+                popup_aa67c272536af8dd5df100ed69a659b3.setContent(html_148492a9697eb404e6894176bf693ee6);
+            
+        
+
+        marker_323a96b908e94953866672a5436c18ff.bindPopup(popup_aa67c272536af8dd5df100ed69a659b3)
+        ;
+
+        
+    
+    
+            marker_323a96b908e94953866672a5436c18ff.bindTooltip(
+                `<div>
+                     高雄醫學大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f88468afa7a1933dd2aaacf144681e50 = L.marker(
+                [23.57006757, 120.4920203],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5da1e5d8e7a710ecc9e9549de70ad4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8290db4eb4bc315c4d3fc13be35cf474 = $(`<div id="html_8290db4eb4bc315c4d3fc13be35cf474" style="width: 100.0%; height: 100.0%;"><b>南華大學</b><br>嘉義縣大林鎮南華路一段55號<br>電話: (05)3102100<br><a href='http://www.nhu.edu.tw' target='_blank'>http://www.nhu.edu.tw</a></div>`)[0];
+                popup_5da1e5d8e7a710ecc9e9549de70ad4ab.setContent(html_8290db4eb4bc315c4d3fc13be35cf474);
+            
+        
+
+        marker_f88468afa7a1933dd2aaacf144681e50.bindPopup(popup_5da1e5d8e7a710ecc9e9549de70ad4ab)
+        ;
+
+        
+    
+    
+            marker_f88468afa7a1933dd2aaacf144681e50.bindTooltip(
+                `<div>
+                     南華大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5717ecd4f0f24b050b2e3ac4bf04bcd2 = L.marker(
+                [25.17543368, 121.4321658],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_0535f1482a85cb3607ad5e18aba16d5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e5b087e7adbeb60b6942645c2876dc = $(`<div id="html_f6e5b087e7adbeb60b6942645c2876dc" style="width: 100.0%; height: 100.0%;"><b>真理大學</b><br>新北市淡水區真理街32號<br>電話: (02)26212121<br><a href='http://www.au.edu.tw' target='_blank'>http://www.au.edu.tw</a></div>`)[0];
+                popup_0535f1482a85cb3607ad5e18aba16d5b.setContent(html_f6e5b087e7adbeb60b6942645c2876dc);
+            
+        
+
+        marker_5717ecd4f0f24b050b2e3ac4bf04bcd2.bindPopup(popup_0535f1482a85cb3607ad5e18aba16d5b)
+        ;
+
+        
+    
+    
+            marker_5717ecd4f0f24b050b2e3ac4bf04bcd2.bindTooltip(
+                `<div>
+                     真理大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7904b60f1bacd9248c7dfdcb4f0bab08 = L.marker(
+                [25.06676118, 121.5185112],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5e3a1d5ec5526a50b8d1111d81948670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a482fb38fa96a90fc9bf7dc2053906f3 = $(`<div id="html_a482fb38fa96a90fc9bf7dc2053906f3" style="width: 100.0%; height: 100.0%;"><b>大同大學</b><br>臺北市中山區中山北路三段40號<br>電話: (02)21822928<br><a href='http://www.ttu.edu.tw' target='_blank'>http://www.ttu.edu.tw</a></div>`)[0];
+                popup_5e3a1d5ec5526a50b8d1111d81948670.setContent(html_a482fb38fa96a90fc9bf7dc2053906f3);
+            
+        
+
+        marker_7904b60f1bacd9248c7dfdcb4f0bab08.bindPopup(popup_5e3a1d5ec5526a50b8d1111d81948670)
+        ;
+
+        
+    
+    
+            marker_7904b60f1bacd9248c7dfdcb4f0bab08.bindTooltip(
+                `<div>
+                     大同大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a716a4b7e38d2b28d0ab01ef90b5ba9 = L.marker(
+                [23.02146678, 120.2219979],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_492411f8d0a052d00c4b01a31dce5068 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0c97ac7fc99a382087967696e83ca26 = $(`<div id="html_d0c97ac7fc99a382087967696e83ca26" style="width: 100.0%; height: 100.0%;"><b>南臺科技大學</b><br>臺南市永康區尚頂里南臺街1號<br>電話: (06)2533131<br><a href='http://www.stust.edu.tw' target='_blank'>http://www.stust.edu.tw</a></div>`)[0];
+                popup_492411f8d0a052d00c4b01a31dce5068.setContent(html_d0c97ac7fc99a382087967696e83ca26);
+            
+        
+
+        marker_5a716a4b7e38d2b28d0ab01ef90b5ba9.bindPopup(popup_492411f8d0a052d00c4b01a31dce5068)
+        ;
+
+        
+    
+    
+            marker_5a716a4b7e38d2b28d0ab01ef90b5ba9.bindTooltip(
+                `<div>
+                     南臺科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5687d5da009f215f329f1a1314403f99 = L.marker(
+                [22.99773187, 120.2505234],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6a99b95d3bed3e59bf3ed56e97c32f0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f11b3934875a9fd73ca2135ee0b5ce = $(`<div id="html_69f11b3934875a9fd73ca2135ee0b5ce" style="width: 100.0%; height: 100.0%;"><b>崑山科技大學</b><br>臺南市永康區崑大路195號<br>電話: (06)2727175<br><a href='http://www.ksu.edu.tw' target='_blank'>http://www.ksu.edu.tw</a></div>`)[0];
+                popup_6a99b95d3bed3e59bf3ed56e97c32f0a.setContent(html_69f11b3934875a9fd73ca2135ee0b5ce);
+            
+        
+
+        marker_5687d5da009f215f329f1a1314403f99.bindPopup(popup_6a99b95d3bed3e59bf3ed56e97c32f0a)
+        ;
+
+        
+    
+    
+            marker_5687d5da009f215f329f1a1314403f99.bindTooltip(
+                `<div>
+                     崑山科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_763af73668bb71de65d0c7cca4d45959 = L.marker(
+                [22.92265578, 120.223456],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4e014bef8464b2cb12f54a4a713fd23f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fd1413f52d841c47517417ee2af70b = $(`<div id="html_49fd1413f52d841c47517417ee2af70b" style="width: 100.0%; height: 100.0%;"><b>嘉南藥理大學</b><br>臺南市仁德區二仁路一段60號<br>電話: (06)2664911<br><a href='http://www.cnu.edu.tw' target='_blank'>http://www.cnu.edu.tw</a></div>`)[0];
+                popup_4e014bef8464b2cb12f54a4a713fd23f.setContent(html_49fd1413f52d841c47517417ee2af70b);
+            
+        
+
+        marker_763af73668bb71de65d0c7cca4d45959.bindPopup(popup_4e014bef8464b2cb12f54a4a713fd23f)
+        ;
+
+        
+    
+    
+            marker_763af73668bb71de65d0c7cca4d45959.bindTooltip(
+                `<div>
+                     嘉南藥理大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23c65486a48223c58f7a7fb41dd4e388 = L.marker(
+                [22.76257628, 120.374052],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_003e0e7cd463d9522533f77899f0d5d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eacd3ff39477f1f201c6c6865afbf7c0 = $(`<div id="html_eacd3ff39477f1f201c6c6865afbf7c0" style="width: 100.0%; height: 100.0%;"><b>樹德科技大學</b><br>高雄市燕巢區橫山路59號<br>電話: (07)6158000<br><a href='http://www.stu.edu.tw' target='_blank'>http://www.stu.edu.tw</a></div>`)[0];
+                popup_003e0e7cd463d9522533f77899f0d5d2.setContent(html_eacd3ff39477f1f201c6c6865afbf7c0);
+            
+        
+
+        marker_23c65486a48223c58f7a7fb41dd4e388.bindPopup(popup_003e0e7cd463d9522533f77899f0d5d2)
+        ;
+
+        
+    
+    
+            marker_23c65486a48223c58f7a7fb41dd4e388.bindTooltip(
+                `<div>
+                     樹德科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75befb58a4544c48974435a7423183a6 = L.marker(
+                [23.99293787, 121.588705],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f0f3723de9b7077bbc98dcfc08d5e12b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e4257aeb35f2853eaa4c4c111bfb07 = $(`<div id="html_a8e4257aeb35f2853eaa4c4c111bfb07" style="width: 100.0%; height: 100.0%;"><b>慈濟大學</b><br>花蓮縣花蓮市中央路三段701號<br>電話: (03)8565301<br><a href='http://www.tcu.edu.tw' target='_blank'>http://www.tcu.edu.tw</a></div>`)[0];
+                popup_f0f3723de9b7077bbc98dcfc08d5e12b.setContent(html_a8e4257aeb35f2853eaa4c4c111bfb07);
+            
+        
+
+        marker_75befb58a4544c48974435a7423183a6.bindPopup(popup_f0f3723de9b7077bbc98dcfc08d5e12b)
+        ;
+
+        
+    
+    
+            marker_75befb58a4544c48974435a7423183a6.bindTooltip(
+                `<div>
+                     慈濟大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9a11cbbdb410239cf11c101517fc7e2 = L.marker(
+                [25.02604127, 121.5598713],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e337e8e0cb50a91780cf60ba6f036608 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6222279b207ad128d0960e427357537d = $(`<div id="html_6222279b207ad128d0960e427357537d" style="width: 100.0%; height: 100.0%;"><b>臺北醫學大學</b><br>臺北市信義區吳興街250號<br>電話: (02)27361661<br><a href='http://www.tmu.edu.tw' target='_blank'>http://www.tmu.edu.tw</a></div>`)[0];
+                popup_e337e8e0cb50a91780cf60ba6f036608.setContent(html_6222279b207ad128d0960e427357537d);
+            
+        
+
+        marker_a9a11cbbdb410239cf11c101517fc7e2.bindPopup(popup_e337e8e0cb50a91780cf60ba6f036608)
+        ;
+
+        
+    
+    
+            marker_a9a11cbbdb410239cf11c101517fc7e2.bindTooltip(
+                `<div>
+                     臺北醫學大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb6f6a92e128733c781db3ff82a2a2f7 = L.marker(
+                [24.12210837, 120.6488061],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_a4478a9c4edb73e512836efe31a555ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b360b3a80f930ebec1813664a299da3 = $(`<div id="html_5b360b3a80f930ebec1813664a299da3" style="width: 100.0%; height: 100.0%;"><b>中山醫學大學</b><br>臺中市南區建國北路一段110號<br>電話: (04)24730022<br><a href='http://www.csmu.edu.tw' target='_blank'>http://www.csmu.edu.tw</a></div>`)[0];
+                popup_a4478a9c4edb73e512836efe31a555ec.setContent(html_5b360b3a80f930ebec1813664a299da3);
+            
+        
+
+        marker_fb6f6a92e128733c781db3ff82a2a2f7.bindPopup(popup_a4478a9c4edb73e512836efe31a555ec)
+        ;
+
+        
+    
+    
+            marker_fb6f6a92e128733c781db3ff82a2a2f7.bindTooltip(
+                `<div>
+                     中山醫學大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbed7cc0f25e152c966a5d7e009287ef = L.marker(
+                [25.01948942, 121.3991567],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f5c9cb2d19eb77f850f60cb3abc342cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f4ad82d5f8209fb53e9ec368ceb56e2 = $(`<div id="html_2f4ad82d5f8209fb53e9ec368ceb56e2" style="width: 100.0%; height: 100.0%;"><b>龍華科技大學</b><br>桃園市龜山區萬壽路一段300號<br>電話: (02)82093211<br><a href='http://www.lhu.edu.tw/' target='_blank'>http://www.lhu.edu.tw/</a></div>`)[0];
+                popup_f5c9cb2d19eb77f850f60cb3abc342cd.setContent(html_2f4ad82d5f8209fb53e9ec368ceb56e2);
+            
+        
+
+        marker_bbed7cc0f25e152c966a5d7e009287ef.bindPopup(popup_f5c9cb2d19eb77f850f60cb3abc342cd)
+        ;
+
+        
+    
+    
+            marker_bbed7cc0f25e152c966a5d7e009287ef.bindTooltip(
+                `<div>
+                     龍華科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cca47ee9a40013b128446c6e289240f = L.marker(
+                [22.60194553, 120.3869877],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_aa1515fe78f933113718282b02606906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d46a72dfce8065e225449b216676cbd5 = $(`<div id="html_d46a72dfce8065e225449b216676cbd5" style="width: 100.0%; height: 100.0%;"><b>輔英科技大學</b><br>高雄市大寮區進學路151號<br>電話: (07)7811151<br><a href='https://www.fy.edu.tw/' target='_blank'>https://www.fy.edu.tw/</a></div>`)[0];
+                popup_aa1515fe78f933113718282b02606906.setContent(html_d46a72dfce8065e225449b216676cbd5);
+            
+        
+
+        marker_9cca47ee9a40013b128446c6e289240f.bindPopup(popup_aa1515fe78f933113718282b02606906)
+        ;
+
+        
+    
+    
+            marker_9cca47ee9a40013b128446c6e289240f.bindTooltip(
+                `<div>
+                     輔英科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cc9f5bd20f2a84718b4b7b5dbeaa16a = L.marker(
+                [24.86385118, 120.9886418],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_51e4d7b1928e26daf4055d76bfb61c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_534d8633394039ea770b696a8e6e1242 = $(`<div id="html_534d8633394039ea770b696a8e6e1242" style="width: 100.0%; height: 100.0%;"><b>明新科技大學</b><br>新竹縣新豐鄉新興路1號<br>電話: (03)5593142<br><a href='http://www.must.edu.tw' target='_blank'>http://www.must.edu.tw</a></div>`)[0];
+                popup_51e4d7b1928e26daf4055d76bfb61c2c.setContent(html_534d8633394039ea770b696a8e6e1242);
+            
+        
+
+        marker_9cc9f5bd20f2a84718b4b7b5dbeaa16a.bindPopup(popup_51e4d7b1928e26daf4055d76bfb61c2c)
+        ;
+
+        
+    
+    
+            marker_9cc9f5bd20f2a84718b4b7b5dbeaa16a.bindTooltip(
+                `<div>
+                     明新科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac6dcadb4b68ac546ee6ba87e97c1a4a = L.marker(
+                [22.90296998, 120.2713141],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_fd95ca48959a521ee34585336ea328f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_736765208225af6166afdb2cb164a290 = $(`<div id="html_736765208225af6166afdb2cb164a290" style="width: 100.0%; height: 100.0%;"><b>長榮大學</b><br>臺南市歸仁區長大路1號<br>電話: (06)2785123<br><a href='http://www.cjcu.edu.tw' target='_blank'>http://www.cjcu.edu.tw</a></div>`)[0];
+                popup_fd95ca48959a521ee34585336ea328f6.setContent(html_736765208225af6166afdb2cb164a290);
+            
+        
+
+        marker_ac6dcadb4b68ac546ee6ba87e97c1a4a.bindPopup(popup_fd95ca48959a521ee34585336ea328f6)
+        ;
+
+        
+    
+    
+            marker_ac6dcadb4b68ac546ee6ba87e97c1a4a.bindTooltip(
+                `<div>
+                     長榮大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b613ddfa1f866fa9919b60a1cdf4429 = L.marker(
+                [24.21726547, 120.5781762],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_22b0a1678a65f21ff407a313b093646d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b712976895fb1d6ff58697493f5950c = $(`<div id="html_4b712976895fb1d6ff58697493f5950c" style="width: 100.0%; height: 100.0%;"><b>弘光科技大學</b><br>臺中市沙鹿區臺灣大道六段1018號<br>電話: (04)26318652<br><a href='http://www.hk.edu.tw' target='_blank'>http://www.hk.edu.tw</a></div>`)[0];
+                popup_22b0a1678a65f21ff407a313b093646d.setContent(html_4b712976895fb1d6ff58697493f5950c);
+            
+        
+
+        marker_9b613ddfa1f866fa9919b60a1cdf4429.bindPopup(popup_22b0a1678a65f21ff407a313b093646d)
+        ;
+
+        
+    
+    
+            marker_9b613ddfa1f866fa9919b60a1cdf4429.bindTooltip(
+                `<div>
+                     弘光科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29cdb5d6348617341b9009e8bba890f7 = L.marker(
+                [24.17860267, 120.6586493],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_686d7b41c58a3277d32e1e7738f721f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201e58a5c6d02c0357f0a7d34eafe456 = $(`<div id="html_201e58a5c6d02c0357f0a7d34eafe456" style="width: 100.0%; height: 100.0%;"><b>中國醫藥大學</b><br>臺中市北屯區經貿路一段100號<br>電話: (04)22053366<br><a href='http://www.cmu.edu.tw' target='_blank'>http://www.cmu.edu.tw</a></div>`)[0];
+                popup_686d7b41c58a3277d32e1e7738f721f4.setContent(html_201e58a5c6d02c0357f0a7d34eafe456);
+            
+        
+
+        marker_29cdb5d6348617341b9009e8bba890f7.bindPopup(popup_686d7b41c58a3277d32e1e7738f721f4)
+        ;
+
+        
+    
+    
+            marker_29cdb5d6348617341b9009e8bba890f7.bindTooltip(
+                `<div>
+                     中國醫藥大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51435295747b2e3c11152598bd862a5f = L.marker(
+                [24.94799357, 121.2273233],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_785d2ff741cf9f8a087a303a4a21f0d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f260f10dfb478fc5ed5ef6346535457 = $(`<div id="html_6f260f10dfb478fc5ed5ef6346535457" style="width: 100.0%; height: 100.0%;"><b>健行科技大學</b><br>桃園市中壢區健行路229號<br>電話: (03)4581196<br><a href='http://www.uch.edu.tw' target='_blank'>http://www.uch.edu.tw</a></div>`)[0];
+                popup_785d2ff741cf9f8a087a303a4a21f0d8.setContent(html_6f260f10dfb478fc5ed5ef6346535457);
+            
+        
+
+        marker_51435295747b2e3c11152598bd862a5f.bindPopup(popup_785d2ff741cf9f8a087a303a4a21f0d8)
+        ;
+
+        
+    
+    
+            marker_51435295747b2e3c11152598bd862a5f.bindTooltip(
+                `<div>
+                     健行科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_695722ed44ea19e2f530243a82790621 = L.marker(
+                [22.65023058, 120.3474402],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4bfd84f88c77e1be83a333718978ed60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8258d7a606a9b3db21390802ddbce44 = $(`<div id="html_f8258d7a606a9b3db21390802ddbce44" style="width: 100.0%; height: 100.0%;"><b>正修科技大學</b><br>高雄市鳥松區澄清路840號<br>電話: (07)7358800<br><a href='http://www.csu.edu.tw/wSite/mp?mp=10001' target='_blank'>http://www.csu.edu.tw/wSite/mp?mp=10001</a></div>`)[0];
+                popup_4bfd84f88c77e1be83a333718978ed60.setContent(html_f8258d7a606a9b3db21390802ddbce44);
+            
+        
+
+        marker_695722ed44ea19e2f530243a82790621.bindPopup(popup_4bfd84f88c77e1be83a333718978ed60)
+        ;
+
+        
+    
+    
+            marker_695722ed44ea19e2f530243a82790621.bindTooltip(
+                `<div>
+                     正修科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbe0edbf1bfdcb118c2d9be01673cc1f = L.marker(
+                [24.99014217, 121.2293854],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_5698b07b28476664206358dc08895563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_383b03e2293cb17c5d736b4ac61c0dcf = $(`<div id="html_383b03e2293cb17c5d736b4ac61c0dcf" style="width: 100.0%; height: 100.0%;"><b>萬能科技大學</b><br>桃園市中壢區萬能路1號<br>電話: (03)4515811<br><a href='http://www.vnu.edu.tw/' target='_blank'>http://www.vnu.edu.tw/</a></div>`)[0];
+                popup_5698b07b28476664206358dc08895563.setContent(html_383b03e2293cb17c5d736b4ac61c0dcf);
+            
+        
+
+        marker_fbe0edbf1bfdcb118c2d9be01673cc1f.bindPopup(popup_5698b07b28476664206358dc08895563)
+        ;
+
+        
+    
+    
+            marker_fbe0edbf1bfdcb118c2d9be01673cc1f.bindTooltip(
+                `<div>
+                     萬能科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c1c31946acb353c43bcb8118cd81ef = L.marker(
+                [24.77434858, 120.9407141],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f1c6eb3ea3e26c32468c95fc76e46a7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fada8b77e5fa8a7d3eaa94499d925c9 = $(`<div id="html_9fada8b77e5fa8a7d3eaa94499d925c9" style="width: 100.0%; height: 100.0%;"><b>玄奘大學</b><br>新竹市香山區東香里玄奘路48號<br>電話: (03)5302255<br><a href='http://www.hcu.edu.tw' target='_blank'>http://www.hcu.edu.tw</a></div>`)[0];
+                popup_f1c6eb3ea3e26c32468c95fc76e46a7f.setContent(html_9fada8b77e5fa8a7d3eaa94499d925c9);
+            
+        
+
+        marker_17c1c31946acb353c43bcb8118cd81ef.bindPopup(popup_f1c6eb3ea3e26c32468c95fc76e46a7f)
+        ;
+
+        
+    
+    
+            marker_17c1c31946acb353c43bcb8118cd81ef.bindTooltip(
+                `<div>
+                     玄奘大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a03257f0e082a335a1085282f9aeea63 = L.marker(
+                [24.06603837, 120.5478984],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6dc8b08b34eb1e8bb82f5c3fa99057bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb093f6971be2982ddd80bcbbe81530a = $(`<div id="html_eb093f6971be2982ddd80bcbbe81530a" style="width: 100.0%; height: 100.0%;"><b>建國科技大學</b><br>彰化縣彰化市介壽北路1號<br>電話: (04)7111111<br><a href='http://www.ctu.edu.tw' target='_blank'>http://www.ctu.edu.tw</a></div>`)[0];
+                popup_6dc8b08b34eb1e8bb82f5c3fa99057bc.setContent(html_eb093f6971be2982ddd80bcbbe81530a);
+            
+        
+
+        marker_a03257f0e082a335a1085282f9aeea63.bindPopup(popup_6dc8b08b34eb1e8bb82f5c3fa99057bc)
+        ;
+
+        
+    
+    
+            marker_a03257f0e082a335a1085282f9aeea63.bindTooltip(
+                `<div>
+                     建國科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c0f239fcd108831a2926ddad59e9faa = L.marker(
+                [25.04087998, 121.4197361],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_69f033bfd19886475d95e505a8daaf4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_318e5b7da78154d893d780543352b852 = $(`<div id="html_318e5b7da78154d893d780543352b852" style="width: 100.0%; height: 100.0%;"><b>明志科技大學</b><br>新北市泰山區貴子里工專路84號<br>電話: (02)29089899<br><a href='http://www.mcut.edu.tw/' target='_blank'>http://www.mcut.edu.tw/</a></div>`)[0];
+                popup_69f033bfd19886475d95e505a8daaf4f.setContent(html_318e5b7da78154d893d780543352b852);
+            
+        
+
+        marker_5c0f239fcd108831a2926ddad59e9faa.bindPopup(popup_69f033bfd19886475d95e505a8daaf4f)
+        ;
+
+        
+    
+    
+            marker_5c0f239fcd108831a2926ddad59e9faa.bindTooltip(
+                `<div>
+                     明志科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_162a317695b8e8baf0679d7f4f9a4d69 = L.marker(
+                [22.84121338, 120.2613841],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_c4da1e1c81de3b067351c558051bd3e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32f4dec469bcb2add9669973c988e2a4 = $(`<div id="html_32f4dec469bcb2add9669973c988e2a4" style="width: 100.0%; height: 100.0%;"><b>台鋼科技大學</b><br>高雄市路竹區中山路1821號<br>電話: (07)6077777<br><a href='http://www.kyu.edu.tw' target='_blank'>http://www.kyu.edu.tw</a></div>`)[0];
+                popup_c4da1e1c81de3b067351c558051bd3e8.setContent(html_32f4dec469bcb2add9669973c988e2a4);
+            
+        
+
+        marker_162a317695b8e8baf0679d7f4f9a4d69.bindPopup(popup_c4da1e1c81de3b067351c558051bd3e8)
+        ;
+
+        
+    
+    
+            marker_162a317695b8e8baf0679d7f4f9a4d69.bindTooltip(
+                `<div>
+                     台鋼科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_504de1b52d652759c509886925530bee = L.marker(
+                [22.72669208, 120.5395364],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_b90e9892cf6a2d04ca95290b190ef11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b588065a53fb355e4f02732fed5bbe9 = $(`<div id="html_2b588065a53fb355e4f02732fed5bbe9" style="width: 100.0%; height: 100.0%;"><b>大仁科技大學</b><br>屏東縣鹽埔鄉新二村維新路20號<br>電話: (08)7624002~5<br><a href='http://www.tajen.edu.tw' target='_blank'>http://www.tajen.edu.tw</a></div>`)[0];
+                popup_b90e9892cf6a2d04ca95290b190ef11c.setContent(html_2b588065a53fb355e4f02732fed5bbe9);
+            
+        
+
+        marker_504de1b52d652759c509886925530bee.bindPopup(popup_b90e9892cf6a2d04ca95290b190ef11c)
+        ;
+
+        
+    
+    
+            marker_504de1b52d652759c509886925530bee.bindTooltip(
+                `<div>
+                     大仁科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c29e3306ac06780f51014b133c88c7f = L.marker(
+                [25.22653308, 121.4489429],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1a674669ae22e39a7a0ed39cc46af4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6816a7e4d8ab871d048d966c81e0844 = $(`<div id="html_e6816a7e4d8ab871d048d966c81e0844" style="width: 100.0%; height: 100.0%;"><b>聖約翰科技大學</b><br>新北市淡水區淡金路四段499號<br>電話: (02)28013131#7011<br><a href='https://www.sju.edu.tw/' target='_blank'>https://www.sju.edu.tw/</a></div>`)[0];
+                popup_1a674669ae22e39a7a0ed39cc46af4a7.setContent(html_e6816a7e4d8ab871d048d966c81e0844);
+            
+        
+
+        marker_5c29e3306ac06780f51014b133c88c7f.bindPopup(popup_1a674669ae22e39a7a0ed39cc46af4a7)
+        ;
+
+        
+    
+    
+            marker_5c29e3306ac06780f51014b133c88c7f.bindTooltip(
+                `<div>
+                     聖約翰科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67fc6cc1b23e7f46f2f64030ff12ef60 = L.marker(
+                [24.13701848, 120.607647],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_592df7e1bf59f10bd5f88830f394c05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae9627eccf404c0e16515352548bc55a = $(`<div id="html_ae9627eccf404c0e16515352548bc55a" style="width: 100.0%; height: 100.0%;"><b>嶺東科技大學</b><br>臺中市南屯區嶺東路1號<br>電話: (04)23892088<br><a href='http://www.ltu.edu.tw' target='_blank'>http://www.ltu.edu.tw</a></div>`)[0];
+                popup_592df7e1bf59f10bd5f88830f394c05c.setContent(html_ae9627eccf404c0e16515352548bc55a);
+            
+        
+
+        marker_67fc6cc1b23e7f46f2f64030ff12ef60.bindPopup(popup_592df7e1bf59f10bd5f88830f394c05c)
+        ;
+
+        
+    
+    
+            marker_67fc6cc1b23e7f46f2f64030ff12ef60.bindTooltip(
+                `<div>
+                     嶺東科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d94c7d93739004c33510ac6ee72aa65 = L.marker(
+                [25.00006658, 121.553392],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_45fbfbfa993921976f4d63fdd3020caf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a862e6a4fac5d9b22c099083b5e29cb7 = $(`<div id="html_a862e6a4fac5d9b22c099083b5e29cb7" style="width: 100.0%; height: 100.0%;"><b>中國科技大學</b><br>臺北市文山區興隆路三段56號<br>電話: (02)29313416<br><a href='http://www.cute.edu.tw/' target='_blank'>http://www.cute.edu.tw/</a></div>`)[0];
+                popup_45fbfbfa993921976f4d63fdd3020caf.setContent(html_a862e6a4fac5d9b22c099083b5e29cb7);
+            
+        
+
+        marker_9d94c7d93739004c33510ac6ee72aa65.bindPopup(popup_45fbfbfa993921976f4d63fdd3020caf)
+        ;
+
+        
+    
+    
+            marker_9d94c7d93739004c33510ac6ee72aa65.bindTooltip(
+                `<div>
+                     中國科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca39925c29a1205d292592f43d43faee = L.marker(
+                [24.17399598, 120.7325081],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_be079a02e0a0e591fc22dc43135b2394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15c1b92cac6618c9595ec47254eb80b4 = $(`<div id="html_15c1b92cac6618c9595ec47254eb80b4" style="width: 100.0%; height: 100.0%;"><b>中臺科技大學</b><br>臺中市北屯區廍子路666號<br>電話: (04)22391647<br><a href='http://www.ctust.edu.tw' target='_blank'>http://www.ctust.edu.tw</a></div>`)[0];
+                popup_be079a02e0a0e591fc22dc43135b2394.setContent(html_15c1b92cac6618c9595ec47254eb80b4);
+            
+        
+
+        marker_ca39925c29a1205d292592f43d43faee.bindPopup(popup_be079a02e0a0e591fc22dc43135b2394)
+        ;
+
+        
+    
+    
+            marker_ca39925c29a1205d292592f43d43faee.bindTooltip(
+                `<div>
+                     中臺科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a43634d5ff926ae83194a3c94cf6415 = L.marker(
+                [24.04614858, 120.684795],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_cf450961306eb02f133274cda058c062 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2549f5a40e00d50b5eb3de4a9cb221da = $(`<div id="html_2549f5a40e00d50b5eb3de4a9cb221da" style="width: 100.0%; height: 100.0%;"><b>亞洲大學</b><br>臺中市霧峰區柳豐路500號<br>電話: (04)23323456<br><a href='http://www.asia.edu.tw' target='_blank'>http://www.asia.edu.tw</a></div>`)[0];
+                popup_cf450961306eb02f133274cda058c062.setContent(html_2549f5a40e00d50b5eb3de4a9cb221da);
+            
+        
+
+        marker_3a43634d5ff926ae83194a3c94cf6415.bindPopup(popup_cf450961306eb02f133274cda058c062)
+        ;
+
+        
+    
+    
+            marker_3a43634d5ff926ae83194a3c94cf6415.bindTooltip(
+                `<div>
+                     亞洲大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fc90a0c2d179c087be8a9f9964c135a = L.marker(
+                [25.01300347, 121.2659972],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1b5f3fe55a9c3d543244a9293e953f9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4589ee9e7bf6b62fb2552a3d3b2da74 = $(`<div id="html_c4589ee9e7bf6b62fb2552a3d3b2da74" style="width: 100.0%; height: 100.0%;"><b>開南大學</b><br>桃園市蘆竹區開南路1號<br>電話: (03)3412500<br><a href='http://www.knu.edu.tw' target='_blank'>http://www.knu.edu.tw</a></div>`)[0];
+                popup_1b5f3fe55a9c3d543244a9293e953f9b.setContent(html_c4589ee9e7bf6b62fb2552a3d3b2da74);
+            
+        
+
+        marker_2fc90a0c2d179c087be8a9f9964c135a.bindPopup(popup_1b5f3fe55a9c3d543244a9293e953f9b)
+        ;
+
+        
+    
+    
+            marker_2fc90a0c2d179c087be8a9f9964c135a.bindTooltip(
+                `<div>
+                     開南大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52cd65733b05e0f79c2e638a71dfd65f = L.marker(
+                [24.81471238, 121.7245402],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ce8c8a5bb0c87cef65a7120f7802ed9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64213f631bfaaf50d7a5f79d92f126ea = $(`<div id="html_64213f631bfaaf50d7a5f79d92f126ea" style="width: 100.0%; height: 100.0%;"><b>佛光大學</b><br>宜蘭縣礁溪鄉林美村林尾路160號<br>電話: (03)9871000<br><a href='http://www.fgu.edu.tw' target='_blank'>http://www.fgu.edu.tw</a></div>`)[0];
+                popup_ce8c8a5bb0c87cef65a7120f7802ed9c.setContent(html_64213f631bfaaf50d7a5f79d92f126ea);
+            
+        
+
+        marker_52cd65733b05e0f79c2e638a71dfd65f.bindPopup(popup_ce8c8a5bb0c87cef65a7120f7802ed9c)
+        ;
+
+        
+    
+    
+            marker_52cd65733b05e0f79c2e638a71dfd65f.bindTooltip(
+                `<div>
+                     佛光大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25829750bc7a91f78bd8ec3c34297a24 = L.marker(
+                [23.03942448, 120.2364825],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_b9f05324b781a66466ce2d4f521baaad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaab7e425bdcc54653b0230e091bec6b = $(`<div id="html_aaab7e425bdcc54653b0230e091bec6b" style="width: 100.0%; height: 100.0%;"><b>台南應用科技大學</b><br>臺南市永康區中正路529號<br>電話: (06)2532106<br><a href='http://www.tut.edu.tw/' target='_blank'>http://www.tut.edu.tw/</a></div>`)[0];
+                popup_b9f05324b781a66466ce2d4f521baaad.setContent(html_aaab7e425bdcc54653b0230e091bec6b);
+            
+        
+
+        marker_25829750bc7a91f78bd8ec3c34297a24.bindPopup(popup_b9f05324b781a66466ce2d4f521baaad)
+        ;
+
+        
+    
+    
+            marker_25829750bc7a91f78bd8ec3c34297a24.bindTooltip(
+                `<div>
+                     台南應用科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7276ec3dbf33584385d8c1480eb9405d = L.marker(
+                [23.06726378, 120.2942727],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3ffa44473ade37fbdd5f5c1d4caf0c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_457adabe57bb6c5b1b5a40632eb676c8 = $(`<div id="html_457adabe57bb6c5b1b5a40632eb676c8" style="width: 100.0%; height: 100.0%;"><b>遠東科技大學</b><br>臺南市新市區中華路49號<br>電話: (06)5979566<br><a href='http://www.feu.edu.tw' target='_blank'>http://www.feu.edu.tw</a></div>`)[0];
+                popup_3ffa44473ade37fbdd5f5c1d4caf0c69.setContent(html_457adabe57bb6c5b1b5a40632eb676c8);
+            
+        
+
+        marker_7276ec3dbf33584385d8c1480eb9405d.bindPopup(popup_3ffa44473ade37fbdd5f5c1d4caf0c69)
+        ;
+
+        
+    
+    
+            marker_7276ec3dbf33584385d8c1480eb9405d.bindTooltip(
+                `<div>
+                     遠東科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07d05ff5da38122ec04b24348359fd2d = L.marker(
+                [24.77783437, 120.9378054],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6af67ec864e82e0214b1c0559a9f8f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be1d6a8de5fbae742b3f769328bfedc = $(`<div id="html_3be1d6a8de5fbae742b3f769328bfedc" style="width: 100.0%; height: 100.0%;"><b>元培醫事科技大學</b><br>新竹市香山區元培街306號<br>電話: (03)5381183<br><a href='http://www.ypu.edu.tw/' target='_blank'>http://www.ypu.edu.tw/</a></div>`)[0];
+                popup_6af67ec864e82e0214b1c0559a9f8f21.setContent(html_3be1d6a8de5fbae742b3f769328bfedc);
+            
+        
+
+        marker_07d05ff5da38122ec04b24348359fd2d.bindPopup(popup_6af67ec864e82e0214b1c0559a9f8f21)
+        ;
+
+        
+    
+    
+            marker_07d05ff5da38122ec04b24348359fd2d.bindTooltip(
+                `<div>
+                     元培醫事科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13a521c7a97b83985e6a50758817c342 = L.marker(
+                [24.95217818, 121.5080184],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_557c8cace16103206be48464173bb163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccf02ae98c69e1eab1d436680d803e04 = $(`<div id="html_ccf02ae98c69e1eab1d436680d803e04" style="width: 100.0%; height: 100.0%;"><b>景文科技大學</b><br>新北市新店區安忠路99號<br>電話: (02)82122000<br><a href='http://www.just.edu.tw/' target='_blank'>http://www.just.edu.tw/</a></div>`)[0];
+                popup_557c8cace16103206be48464173bb163.setContent(html_ccf02ae98c69e1eab1d436680d803e04);
+            
+        
+
+        marker_13a521c7a97b83985e6a50758817c342.bindPopup(popup_557c8cace16103206be48464173bb163)
+        ;
+
+        
+    
+    
+            marker_13a521c7a97b83985e6a50758817c342.bindTooltip(
+                `<div>
+                     景文科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f95abfb6d659c3a6abe51ffcc4d9d2 = L.marker(
+                [22.96089978, 120.2410591],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_dbdcbc9109f9f93518513fb752944385 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d215e3d2af72820a4b017e86df946b86 = $(`<div id="html_d215e3d2af72820a4b017e86df946b86" style="width: 100.0%; height: 100.0%;"><b>中華醫事科技大學</b><br>臺南市仁德區文華一街89號<br>電話: (06)2674567<br><a href='http://www.hwai.edu.tw' target='_blank'>http://www.hwai.edu.tw</a></div>`)[0];
+                popup_dbdcbc9109f9f93518513fb752944385.setContent(html_d215e3d2af72820a4b017e86df946b86);
+            
+        
+
+        marker_f5f95abfb6d659c3a6abe51ffcc4d9d2.bindPopup(popup_dbdcbc9109f9f93518513fb752944385)
+        ;
+
+        
+    
+    
+            marker_f5f95abfb6d659c3a6abe51ffcc4d9d2.bindTooltip(
+                `<div>
+                     中華醫事科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e66575942edac850b71fd083e677edb2 = L.marker(
+                [25.00329598, 121.6018698],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3c1dc97f0c098f5c192fdd5a45f1050e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c45ddfe00d2c09e45583d31089790cc = $(`<div id="html_7c45ddfe00d2c09e45583d31089790cc" style="width: 100.0%; height: 100.0%;"><b>東南科技大學</b><br>新北市深坑區北深路三段152號<br>電話: (02)86625900<br><a href='http://www.tnu.edu.tw/' target='_blank'>http://www.tnu.edu.tw/</a></div>`)[0];
+                popup_3c1dc97f0c098f5c192fdd5a45f1050e.setContent(html_7c45ddfe00d2c09e45583d31089790cc);
+            
+        
+
+        marker_e66575942edac850b71fd083e677edb2.bindPopup(popup_3c1dc97f0c098f5c192fdd5a45f1050e)
+        ;
+
+        
+    
+    
+            marker_e66575942edac850b71fd083e677edb2.bindTooltip(
+                `<div>
+                     東南科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65c368aa7b01adf51f10cac713a93591 = L.marker(
+                [25.08669218, 121.5627454],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ba7a3fe91ec38e5c18126fa63c64a4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e8d95dc4fee2f7b2bc851cc2a3a3cc8 = $(`<div id="html_7e8d95dc4fee2f7b2bc851cc2a3a3cc8" style="width: 100.0%; height: 100.0%;"><b>德明財經科技大學</b><br>臺北市內湖區環山路一段56號<br>電話: (02)26585801<br><a href='http://www.takming.edu.tw' target='_blank'>http://www.takming.edu.tw</a></div>`)[0];
+                popup_ba7a3fe91ec38e5c18126fa63c64a4c2.setContent(html_7e8d95dc4fee2f7b2bc851cc2a3a3cc8);
+            
+        
+
+        marker_65c368aa7b01adf51f10cac713a93591.bindPopup(popup_ba7a3fe91ec38e5c18126fa63c64a4c2)
+        ;
+
+        
+    
+    
+            marker_65c368aa7b01adf51f10cac713a93591.bindTooltip(
+                `<div>
+                     德明財經科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_236a04a023c4e7a48af5ec71c28e327d = L.marker(
+                [23.86894408, 120.4902926],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_8df719151bb8610353b8e49905a8d336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e1d4e50ad1106961401fba0dcdc9223 = $(`<div id="html_0e1d4e50ad1106961401fba0dcdc9223" style="width: 100.0%; height: 100.0%;"><b>明道大學</b><br>彰化縣埤頭鄉文化路369號<br>電話: (04)8876660<br><a href='http://www.mdu.edu.tw' target='_blank'>http://www.mdu.edu.tw</a></div>`)[0];
+                popup_8df719151bb8610353b8e49905a8d336.setContent(html_0e1d4e50ad1106961401fba0dcdc9223);
+            
+        
+
+        marker_236a04a023c4e7a48af5ec71c28e327d.bindPopup(popup_8df719151bb8610353b8e49905a8d336)
+        ;
+
+        
+    
+    
+            marker_236a04a023c4e7a48af5ec71c28e327d.bindTooltip(
+                `<div>
+                     明道大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_241ff356794274f311bd7632462d8ca3 = L.marker(
+                [23.97923307, 120.6942681],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_236bbf4a5be31d151ddacd7c202bd698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22d24bfbcd719b7e8b49c524d8819d1 = $(`<div id="html_a22d24bfbcd719b7e8b49c524d8819d1" style="width: 100.0%; height: 100.0%;"><b>南開科技大學</b><br>南投縣草屯鎮中正路568號<br>電話: (049)2563489<br><a href='http://www.nkut.edu.tw' target='_blank'>http://www.nkut.edu.tw</a></div>`)[0];
+                popup_236bbf4a5be31d151ddacd7c202bd698.setContent(html_a22d24bfbcd719b7e8b49c524d8819d1);
+            
+        
+
+        marker_241ff356794274f311bd7632462d8ca3.bindPopup(popup_236bbf4a5be31d151ddacd7c202bd698)
+        ;
+
+        
+    
+    
+            marker_241ff356794274f311bd7632462d8ca3.bindTooltip(
+                `<div>
+                     南開科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f949ce0caa60a5e6d6c87d9494a839e5 = L.marker(
+                [25.03359168, 121.6073004],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_c226853cebd1eb27794dad1e20e565f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_195017cf3840635956f271a076bee9c2 = $(`<div id="html_195017cf3840635956f271a076bee9c2" style="width: 100.0%; height: 100.0%;"><b>中華科技大學</b><br>臺北市南港區研究院路三段245號<br>電話: (02)27821862~4<br><a href='http://www.cust.edu.tw/www/cust.html' target='_blank'>http://www.cust.edu.tw/www/cust.html</a></div>`)[0];
+                popup_c226853cebd1eb27794dad1e20e565f5.setContent(html_195017cf3840635956f271a076bee9c2);
+            
+        
+
+        marker_f949ce0caa60a5e6d6c87d9494a839e5.bindPopup(popup_c226853cebd1eb27794dad1e20e565f5)
+        ;
+
+        
+    
+    
+            marker_f949ce0caa60a5e6d6c87d9494a839e5.bindTooltip(
+                `<div>
+                     中華科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f6097718195e56ef48879388dc6344e = L.marker(
+                [24.18921577, 120.6420972],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_fa8f01964ae2fda21dd367844261e213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbb86c17744b59c01a130d1e37ece834 = $(`<div id="html_fbb86c17744b59c01a130d1e37ece834" style="width: 100.0%; height: 100.0%;"><b>僑光科技大學</b><br>臺中市西屯區僑光路100號<br>電話: (04)27016855<br><a href='http://www.ocu.edu.tw' target='_blank'>http://www.ocu.edu.tw</a></div>`)[0];
+                popup_fa8f01964ae2fda21dd367844261e213.setContent(html_fbb86c17744b59c01a130d1e37ece834);
+            
+        
+
+        marker_3f6097718195e56ef48879388dc6344e.bindPopup(popup_fa8f01964ae2fda21dd367844261e213)
+        ;
+
+        
+    
+    
+            marker_3f6097718195e56ef48879388dc6344e.bindTooltip(
+                `<div>
+                     僑光科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f8fd9d98d93cba7102e4d490ba9fba5 = L.marker(
+                [24.64963767, 120.8399844],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_304e3903960f26bb93a84f1f37635746 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_845233e949ee4d17fa9512d67114b042 = $(`<div id="html_845233e949ee4d17fa9512d67114b042" style="width: 100.0%; height: 100.0%;"><b>育達科技大學</b><br>苗栗縣造橋鄉談文村學府路168號<br>電話: (037)651188<br><a href='http://www.ydu.edu.tw' target='_blank'>http://www.ydu.edu.tw</a></div>`)[0];
+                popup_304e3903960f26bb93a84f1f37635746.setContent(html_845233e949ee4d17fa9512d67114b042);
+            
+        
+
+        marker_4f8fd9d98d93cba7102e4d490ba9fba5.bindPopup(popup_304e3903960f26bb93a84f1f37635746)
+        ;
+
+        
+    
+    
+            marker_4f8fd9d98d93cba7102e4d490ba9fba5.bindTooltip(
+                `<div>
+                     育達科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c84ad6dcf32ba0e41dae3baaca959b6 = L.marker(
+                [22.60311048, 120.5569381],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_23f8dd9a0f3df0ade2e4d0da95cf2a30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea3cdfcc18abf7675d7bffea7025bf48 = $(`<div id="html_ea3cdfcc18abf7675d7bffea7025bf48" style="width: 100.0%; height: 100.0%;"><b>美和科技大學</b><br>屏東縣內埔鄉美和村屏光路23號<br>電話: (08)7799821<br><a href='https://www.meiho.edu.tw/' target='_blank'>https://www.meiho.edu.tw/</a></div>`)[0];
+                popup_23f8dd9a0f3df0ade2e4d0da95cf2a30.setContent(html_ea3cdfcc18abf7675d7bffea7025bf48);
+            
+        
+
+        marker_3c84ad6dcf32ba0e41dae3baaca959b6.bindPopup(popup_23f8dd9a0f3df0ade2e4d0da95cf2a30)
+        ;
+
+        
+    
+    
+            marker_3c84ad6dcf32ba0e41dae3baaca959b6.bindTooltip(
+                `<div>
+                     美和科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3820e8beeef0b856d1654476f05fb97 = L.marker(
+                [23.53661897, 120.4330066],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_ed34ea9e6cdf77241d05096cb5457696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ad1d839cb0ecabd87a552836b59976 = $(`<div id="html_28ad1d839cb0ecabd87a552836b59976" style="width: 100.0%; height: 100.0%;"><b>吳鳳科技大學</b><br>嘉義縣民雄鄉建國路二段117號<br>電話: (05)2267125<br><a href='http://www.wfu.edu.tw/' target='_blank'>http://www.wfu.edu.tw/</a></div>`)[0];
+                popup_ed34ea9e6cdf77241d05096cb5457696.setContent(html_28ad1d839cb0ecabd87a552836b59976);
+            
+        
+
+        marker_d3820e8beeef0b856d1654476f05fb97.bindPopup(popup_ed34ea9e6cdf77241d05096cb5457696)
+        ;
+
+        
+    
+    
+            marker_d3820e8beeef0b856d1654476f05fb97.bindTooltip(
+                `<div>
+                     吳鳳科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43f8bd3c3aa6f2624e6b40a217b6b03e = L.marker(
+                [23.68036557, 120.5530566],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_68d08a1c6a433147fb256d6f77154445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39970cbe93b79d1dd10f142afa45a4ff = $(`<div id="html_39970cbe93b79d1dd10f142afa45a4ff" style="width: 100.0%; height: 100.0%;"><b>環球科技大學</b><br>雲林縣斗六市嘉東里鎮南路1221號<br>電話: (05)5370988<br><a href='http://www.twu.edu.tw/' target='_blank'>http://www.twu.edu.tw/</a></div>`)[0];
+                popup_68d08a1c6a433147fb256d6f77154445.setContent(html_39970cbe93b79d1dd10f142afa45a4ff);
+            
+        
+
+        marker_43f8bd3c3aa6f2624e6b40a217b6b03e.bindPopup(popup_68d08a1c6a433147fb256d6f77154445)
+        ;
+
+        
+    
+    
+            marker_43f8bd3c3aa6f2624e6b40a217b6b03e.bindTooltip(
+                `<div>
+                     環球科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fd517fa36c973eec726493452efc781 = L.marker(
+                [24.09528118, 120.7112107],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_67346418df4411f495a5dc5754c6892f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acb746af2e7285255e8645cc1a255c47 = $(`<div id="html_acb746af2e7285255e8645cc1a255c47" style="width: 100.0%; height: 100.0%;"><b>修平科技大學</b><br>臺中市大里區工業路11號<br>電話: (04)24961100<br><a href='http://www.hust.edu.tw/' target='_blank'>http://www.hust.edu.tw/</a></div>`)[0];
+                popup_67346418df4411f495a5dc5754c6892f.setContent(html_acb746af2e7285255e8645cc1a255c47);
+            
+        
+
+        marker_4fd517fa36c973eec726493452efc781.bindPopup(popup_67346418df4411f495a5dc5754c6892f)
+        ;
+
+        
+    
+    
+            marker_4fd517fa36c973eec726493452efc781.bindTooltip(
+                `<div>
+                     修平科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dea254560d2407cefa83e88787400d8 = L.marker(
+                [25.02950728, 121.3874968],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_aaeeaf044e6781c50b9a92bdbb2af16f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b19b67f75034cf049bc122836365ede7 = $(`<div id="html_b19b67f75034cf049bc122836365ede7" style="width: 100.0%; height: 100.0%;"><b>長庚科技大學</b><br>桃園市龜山區文化一路261號<br>電話: (03)2118999<br><a href='http://www.cgust.edu.tw' target='_blank'>http://www.cgust.edu.tw</a></div>`)[0];
+                popup_aaeeaf044e6781c50b9a92bdbb2af16f.setContent(html_b19b67f75034cf049bc122836365ede7);
+            
+        
+
+        marker_6dea254560d2407cefa83e88787400d8.bindPopup(popup_aaeeaf044e6781c50b9a92bdbb2af16f)
+        ;
+
+        
+    
+    
+            marker_6dea254560d2407cefa83e88787400d8.bindTooltip(
+                `<div>
+                     長庚科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cac7337827c986f6f878fe5c134c280 = L.marker(
+                [25.13459978, 121.4667467],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_359c08313beb989df48b1d8a8a62df6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7186d771781424bff25da5a3ea662809 = $(`<div id="html_7186d771781424bff25da5a3ea662809" style="width: 100.0%; height: 100.0%;"><b>臺北城市科技大學</b><br>臺北市北投區學園路2號<br>電話: (02)28927154<br><a href='https://www.tpcu.edu.tw/' target='_blank'>https://www.tpcu.edu.tw/</a></div>`)[0];
+                popup_359c08313beb989df48b1d8a8a62df6a.setContent(html_7186d771781424bff25da5a3ea662809);
+            
+        
+
+        marker_8cac7337827c986f6f878fe5c134c280.bindPopup(popup_359c08313beb989df48b1d8a8a62df6a)
+        ;
+
+        
+    
+    
+            marker_8cac7337827c986f6f878fe5c134c280.bindTooltip(
+                `<div>
+                     臺北城市科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf72c6f4950fc96cb82339c2ae4d4de1 = L.marker(
+                [24.77955927, 121.0893641],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_cdd15a3b84f1c6f5e1b74557465e265a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2fe85a67f3031d92de7d71b860c9e4f = $(`<div id="html_c2fe85a67f3031d92de7d71b860c9e4f" style="width: 100.0%; height: 100.0%;"><b>敏實科技大學</b><br>新竹縣芎林鄉大華路1號<br>電話: (03)5927700<br><a href='https://www.mitust.edu.tw/' target='_blank'>https://www.mitust.edu.tw/</a></div>`)[0];
+                popup_cdd15a3b84f1c6f5e1b74557465e265a.setContent(html_c2fe85a67f3031d92de7d71b860c9e4f);
+            
+        
+
+        marker_bf72c6f4950fc96cb82339c2ae4d4de1.bindPopup(popup_cdd15a3b84f1c6f5e1b74557465e265a)
+        ;
+
+        
+    
+    
+            marker_bf72c6f4950fc96cb82339c2ae4d4de1.bindTooltip(
+                `<div>
+                     敏實科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e2afe8eab0150baf3580cdd838a02a4 = L.marker(
+                [25.08034548, 121.3951178],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_dc546a2a5eb03f9af73d25c3895afa5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f68a3dcf116dca7eb730d0c292ac26 = $(`<div id="html_20f68a3dcf116dca7eb730d0c292ac26" style="width: 100.0%; height: 100.0%;"><b>醒吾科技大學</b><br>新北市林口區粉寮路一段101號<br>電話: (02)26015310<br><a href='http://www.hwu.edu.tw' target='_blank'>http://www.hwu.edu.tw</a></div>`)[0];
+                popup_dc546a2a5eb03f9af73d25c3895afa5e.setContent(html_20f68a3dcf116dca7eb730d0c292ac26);
+            
+        
+
+        marker_8e2afe8eab0150baf3580cdd838a02a4.bindPopup(popup_dc546a2a5eb03f9af73d25c3895afa5e)
+        ;
+
+        
+    
+    
+            marker_8e2afe8eab0150baf3580cdd838a02a4.bindTooltip(
+                `<div>
+                     醒吾科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc245aaaa90df405e1fe3f134b8176bc = L.marker(
+                [22.67022068, 120.3156819],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_023cbf5a302361fbf9de81f6808957cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e873751d15cfb2b31fd6ad776b74a7d = $(`<div id="html_2e873751d15cfb2b31fd6ad776b74a7d" style="width: 100.0%; height: 100.0%;"><b>文藻外語大學</b><br>高雄市三民區民族一路900號<br>電話: (07)3426031<br><a href='http://www.wzu.edu.tw' target='_blank'>http://www.wzu.edu.tw</a></div>`)[0];
+                popup_023cbf5a302361fbf9de81f6808957cd.setContent(html_2e873751d15cfb2b31fd6ad776b74a7d);
+            
+        
+
+        marker_dc245aaaa90df405e1fe3f134b8176bc.bindPopup(popup_023cbf5a302361fbf9de81f6808957cd)
+        ;
+
+        
+    
+    
+            marker_dc245aaaa90df405e1fe3f134b8176bc.bindTooltip(
+                `<div>
+                     文藻外語大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7daf3c7d65fb586f0086818d44ecfab = L.marker(
+                [24.97900658, 121.5060476],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_4ea4e9d5a72c3cea41449884685267f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea3e02b90cc52baa059e4da923ccd75 = $(`<div id="html_aea3e02b90cc52baa059e4da923ccd75" style="width: 100.0%; height: 100.0%;"><b>華夏科技大學</b><br>新北市中和區工專路111號<br>電話: (02)89415100<br><a href='http://www.hwh.edu.tw' target='_blank'>http://www.hwh.edu.tw</a></div>`)[0];
+                popup_4ea4e9d5a72c3cea41449884685267f4.setContent(html_aea3e02b90cc52baa059e4da923ccd75);
+            
+        
+
+        marker_d7daf3c7d65fb586f0086818d44ecfab.bindPopup(popup_4ea4e9d5a72c3cea41449884685267f4)
+        ;
+
+        
+    
+    
+            marker_d7daf3c7d65fb586f0086818d44ecfab.bindTooltip(
+                `<div>
+                     華夏科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbcb17ebfc1ae2d78f330f8d1f19276f = L.marker(
+                [23.99675928, 121.5621786],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f1e1cf094d3fb12c2c98010c5b8f95a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_933b14871287677421ad701d3c6c7a0b = $(`<div id="html_933b14871287677421ad701d3c6c7a0b" style="width: 100.0%; height: 100.0%;"><b>慈濟科技大學</b><br>花蓮縣花蓮市建國路二段880號<br>電話: (03)8572158<br><a href='http://www.tcust.edu.tw' target='_blank'>http://www.tcust.edu.tw</a></div>`)[0];
+                popup_f1e1cf094d3fb12c2c98010c5b8f95a4.setContent(html_933b14871287677421ad701d3c6c7a0b);
+            
+        
+
+        marker_fbcb17ebfc1ae2d78f330f8d1f19276f.bindPopup(popup_f1e1cf094d3fb12c2c98010c5b8f95a4)
+        ;
+
+        
+    
+    
+            marker_fbcb17ebfc1ae2d78f330f8d1f19276f.bindTooltip(
+                `<div>
+                     慈濟科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26e87ec643954d714ada456c211d8fe1 = L.marker(
+                [25.02161407, 121.4613493],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6491b647ddb9317182482586914479a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c45604ea60f10839b5dcb4f1a8a4b27c = $(`<div id="html_c45604ea60f10839b5dcb4f1a8a4b27c" style="width: 100.0%; height: 100.0%;"><b>致理科技大學</b><br>新北市板橋區文化路一段313號<br>電話: (02)22576167<br><a href='http://www.chihlee.edu.tw' target='_blank'>http://www.chihlee.edu.tw</a></div>`)[0];
+                popup_6491b647ddb9317182482586914479a5.setContent(html_c45604ea60f10839b5dcb4f1a8a4b27c);
+            
+        
+
+        marker_26e87ec643954d714ada456c211d8fe1.bindPopup(popup_6491b647ddb9317182482586914479a5)
+        ;
+
+        
+    
+    
+            marker_26e87ec643954d714ada456c211d8fe1.bindTooltip(
+                `<div>
+                     致理科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38dad2a2dbebe8c338c571eab477f342 = L.marker(
+                [25.07548137, 121.606982],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_88255ee7ecac9652ab2afc111f9ef431 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8ccb276c628103e09d5ef7730e1a85 = $(`<div id="html_bf8ccb276c628103e09d5ef7730e1a85" style="width: 100.0%; height: 100.0%;"><b>康寧大學</b><br>臺北市內湖區康寧路三段75巷137號<br>電話: (02)26321181<br><a href='http://www.ukn.edu.tw/' target='_blank'>http://www.ukn.edu.tw/</a></div>`)[0];
+                popup_88255ee7ecac9652ab2afc111f9ef431.setContent(html_bf8ccb276c628103e09d5ef7730e1a85);
+            
+        
+
+        marker_38dad2a2dbebe8c338c571eab477f342.bindPopup(popup_88255ee7ecac9652ab2afc111f9ef431)
+        ;
+
+        
+    
+    
+            marker_38dad2a2dbebe8c338c571eab477f342.bindTooltip(
+                `<div>
+                     康寧大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6800af9787e4bc4dc20f70ea8aedf8fb = L.marker(
+                [24.97306428, 121.4558916],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_23b87fca508e0f3c2e410d6ded44ade4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359e7ee281be0a3fcc27f0283439ee37 = $(`<div id="html_359e7ee281be0a3fcc27f0283439ee37" style="width: 100.0%; height: 100.0%;"><b>宏國德霖科技大學</b><br>新北市土城區青雲路380巷1號<br>電話: (02)22733567<br><a href='http://www.hdut.edu.tw/' target='_blank'>http://www.hdut.edu.tw/</a></div>`)[0];
+                popup_23b87fca508e0f3c2e410d6ded44ade4.setContent(html_359e7ee281be0a3fcc27f0283439ee37);
+            
+        
+
+        marker_6800af9787e4bc4dc20f70ea8aedf8fb.bindPopup(popup_23b87fca508e0f3c2e410d6ded44ade4)
+        ;
+
+        
+    
+    
+            marker_6800af9787e4bc4dc20f70ea8aedf8fb.bindTooltip(
+                `<div>
+                     宏國德霖科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb15f75cb1d8565eb46c6bc9fa4d227e = L.marker(
+                [22.87967477, 120.2443013],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6da02eedba55047c50e3ccca85e489ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fad0772595d75af7456526091f9b98 = $(`<div id="html_39fad0772595d75af7456526091f9b98" style="width: 100.0%; height: 100.0%;"><b>東方設計大學</b><br>高雄市湖內區東方路110號<br>電話: (07)6932011<br><a href='http://www.tf.edu.tw' target='_blank'>http://www.tf.edu.tw</a></div>`)[0];
+                popup_6da02eedba55047c50e3ccca85e489ed.setContent(html_39fad0772595d75af7456526091f9b98);
+            
+        
+
+        marker_bb15f75cb1d8565eb46c6bc9fa4d227e.bindPopup(popup_6da02eedba55047c50e3ccca85e489ed)
+        ;
+
+        
+    
+    
+            marker_bb15f75cb1d8565eb46c6bc9fa4d227e.bindTooltip(
+                `<div>
+                     東方設計大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eeffa9edc46f3e8b7aea6425ad92dda = L.marker(
+                [25.13181982, 121.7514838],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_46f5a2d0c9cbf7c9657441b2d44155f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_795f5513a1c9e391166d91f6aefdef84 = $(`<div id="html_795f5513a1c9e391166d91f6aefdef84" style="width: 100.0%; height: 100.0%;"><b>崇右影藝科技大學</b><br>基隆市信義區義七路40號<br>電話: (02)24237785<br><a href='http://www.cufa.edu.tw/' target='_blank'>http://www.cufa.edu.tw/</a></div>`)[0];
+                popup_46f5a2d0c9cbf7c9657441b2d44155f2.setContent(html_795f5513a1c9e391166d91f6aefdef84);
+            
+        
+
+        marker_6eeffa9edc46f3e8b7aea6425ad92dda.bindPopup(popup_46f5a2d0c9cbf7c9657441b2d44155f2)
+        ;
+
+        
+    
+    
+            marker_6eeffa9edc46f3e8b7aea6425ad92dda.bindTooltip(
+                `<div>
+                     崇右影藝科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1504ec41466f15047c067df8a2be03c = L.marker(
+                [25.19294948, 121.4231777],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3c44c6d4ef58e60d7fc6b6c5b32e9899 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3264a353128842a7c77a82bd4310d416 = $(`<div id="html_3264a353128842a7c77a82bd4310d416" style="width: 100.0%; height: 100.0%;"><b>台北海洋科技大學</b><br>新北市淡水區濱海路三段150號<br>電話: (02)28059999<br><a href='http://www.tumt.edu.tw/app/home.php' target='_blank'>http://www.tumt.edu.tw/app/home.php</a></div>`)[0];
+                popup_3c44c6d4ef58e60d7fc6b6c5b32e9899.setContent(html_3264a353128842a7c77a82bd4310d416);
+            
+        
+
+        marker_f1504ec41466f15047c067df8a2be03c.bindPopup(popup_3c44c6d4ef58e60d7fc6b6c5b32e9899)
+        ;
+
+        
+    
+    
+            marker_f1504ec41466f15047c067df8a2be03c.bindTooltip(
+                `<div>
+                     台北海洋科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3a8bfd1294362dc2bdc5ec4ba1a7dd3 = L.marker(
+                [24.99519398, 121.450544],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_e19ea38987886a762f57c879913784ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8379cd959c02f2ec7e5c90fc1a897f9 = $(`<div id="html_d8379cd959c02f2ec7e5c90fc1a897f9" style="width: 100.0%; height: 100.0%;"><b>亞東科技大學</b><br>新北市板橋區四川路二段58號<br>電話: (02)77388000<br><a href='https://www.aeust.edu.tw/' target='_blank'>https://www.aeust.edu.tw/</a></div>`)[0];
+                popup_e19ea38987886a762f57c879913784ff.setContent(html_d8379cd959c02f2ec7e5c90fc1a897f9);
+            
+        
+
+        marker_a3a8bfd1294362dc2bdc5ec4ba1a7dd3.bindPopup(popup_e19ea38987886a762f57c879913784ff)
+        ;
+
+        
+    
+    
+            marker_a3a8bfd1294362dc2bdc5ec4ba1a7dd3.bindTooltip(
+                `<div>
+                     亞東科技大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65d1de3ecd4a0d6651a305c14dd991f2 = L.marker(
+                [23.06398858, 120.1604325],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_7cf6372b5a3863af37494238a6916b6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67d225b971f0a50373b1e7e6f522b40c = $(`<div id="html_67d225b971f0a50373b1e7e6f522b40c" style="width: 100.0%; height: 100.0%;"><b>中信金融管理學院</b><br>臺南市安南區台江大道三段600號<br>電話: (06)2873335<br><a href='https://www.ctbc.edu.tw/' target='_blank'>https://www.ctbc.edu.tw/</a></div>`)[0];
+                popup_7cf6372b5a3863af37494238a6916b6b.setContent(html_67d225b971f0a50373b1e7e6f522b40c);
+            
+        
+
+        marker_65d1de3ecd4a0d6651a305c14dd991f2.bindPopup(popup_7cf6372b5a3863af37494238a6916b6b)
+        ;
+
+        
+    
+    
+            marker_65d1de3ecd4a0d6651a305c14dd991f2.bindTooltip(
+                `<div>
+                     中信金融管理學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a3194afe4331bf67f7b99be1fac5ff0 = L.marker(
+                [24.03909118, 121.6034966],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_900fca3dcda9e98106a4d8c23e4045c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53097c7fb150894a6912f50cd5b8741f = $(`<div id="html_53097c7fb150894a6912f50cd5b8741f" style="width: 100.0%; height: 100.0%;"><b>大漢技術學院</b><br>花蓮縣新城鄉大漢村樹人街1號<br>電話: (03)8210888<br><a href='http://www.dahan.edu.tw' target='_blank'>http://www.dahan.edu.tw</a></div>`)[0];
+                popup_900fca3dcda9e98106a4d8c23e4045c6.setContent(html_53097c7fb150894a6912f50cd5b8741f);
+            
+        
+
+        marker_5a3194afe4331bf67f7b99be1fac5ff0.bindPopup(popup_900fca3dcda9e98106a4d8c23e4045c6)
+        ;
+
+        
+    
+    
+            marker_5a3194afe4331bf67f7b99be1fac5ff0.bindTooltip(
+                `<div>
+                     大漢技術學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f03f193adafe317af9f8889cb5cd2019 = L.marker(
+                [24.93628463, 121.2488621],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_f6f5ba1a2295115ed252d9a69082db28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e33441d75a0db08e03870257b4df845 = $(`<div id="html_7e33441d75a0db08e03870257b4df845" style="width: 100.0%; height: 100.0%;"><b>南亞技術學院</b><br>桃園市中壢區中山東路三段414號<br>電話: (03)4361070<br><a href='http://www.nanya.edu.tw/home.aspx' target='_blank'>http://www.nanya.edu.tw/home.aspx</a></div>`)[0];
+                popup_f6f5ba1a2295115ed252d9a69082db28.setContent(html_7e33441d75a0db08e03870257b4df845);
+            
+        
+
+        marker_f03f193adafe317af9f8889cb5cd2019.bindPopup(popup_f6f5ba1a2295115ed252d9a69082db28)
+        ;
+
+        
+    
+    
+            marker_f03f193adafe317af9f8889cb5cd2019.bindTooltip(
+                `<div>
+                     南亞技術學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3865872cec26c76d3cae800b1ef3ba51 = L.marker(
+                [25.06663977, 121.418015],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_46b3385b9e9ca8d8a1ca1005f02ea94d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_643aa4840e9ec071144e3460c252ca47 = $(`<div id="html_643aa4840e9ec071144e3460c252ca47" style="width: 100.0%; height: 100.0%;"><b>黎明技術學院</b><br>新北市泰山區泰林路三段22號<br>電話: (02)29097811<br><a href='http://www.lit.edu.tw' target='_blank'>http://www.lit.edu.tw</a></div>`)[0];
+                popup_46b3385b9e9ca8d8a1ca1005f02ea94d.setContent(html_643aa4840e9ec071144e3460c252ca47);
+            
+        
+
+        marker_3865872cec26c76d3cae800b1ef3ba51.bindPopup(popup_46b3385b9e9ca8d8a1ca1005f02ea94d)
+        ;
+
+        
+    
+    
+            marker_3865872cec26c76d3cae800b1ef3ba51.bindTooltip(
+                `<div>
+                     黎明技術學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79389cc163021f1a6515911b1421e05c = L.marker(
+                [25.14963317, 121.7268793],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_9ccfd484320e0dd84f60bee1ff8dc33f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1c92a3136d3da8787ea98ad10a4b322 = $(`<div id="html_a1c92a3136d3da8787ea98ad10a4b322" style="width: 100.0%; height: 100.0%;"><b>德育護理健康學院</b><br>基隆市中山區復興路336號<br>電話: (02)24372093<br><a href='http://www.cku.edu.tw' target='_blank'>http://www.cku.edu.tw</a></div>`)[0];
+                popup_9ccfd484320e0dd84f60bee1ff8dc33f.setContent(html_a1c92a3136d3da8787ea98ad10a4b322);
+            
+        
+
+        marker_79389cc163021f1a6515911b1421e05c.bindPopup(popup_9ccfd484320e0dd84f60bee1ff8dc33f)
+        ;
+
+        
+    
+    
+            marker_79389cc163021f1a6515911b1421e05c.bindTooltip(
+                `<div>
+                     德育護理健康學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6cfc9de89797c70994c26570fcfa94c = L.marker(
+                [23.46947688, 120.462647],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_c19ebbd8a684fb2583e57bc7232d3121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07a7dbbcfb43ce2b99cf38f446cee1ab = $(`<div id="html_07a7dbbcfb43ce2b99cf38f446cee1ab" style="width: 100.0%; height: 100.0%;"><b>大同技術學院</b><br>嘉義市東區彌陀路253號<br>電話: (05)2223124<br><a href='http://www.ttc.edu.tw' target='_blank'>http://www.ttc.edu.tw</a></div>`)[0];
+                popup_c19ebbd8a684fb2583e57bc7232d3121.setContent(html_07a7dbbcfb43ce2b99cf38f446cee1ab);
+            
+        
+
+        marker_a6cfc9de89797c70994c26570fcfa94c.bindPopup(popup_c19ebbd8a684fb2583e57bc7232d3121)
+        ;
+
+        
+    
+    
+            marker_a6cfc9de89797c70994c26570fcfa94c.bindTooltip(
+                `<div>
+                     大同技術學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffb9377097057ecb74d56357337eb796 = L.marker(
+                [25.25179097, 121.4940307],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_fc346a4408a8c928d76d65f00aa71340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_445371919c8cbc13a1d4db2439e3cac2 = $(`<div id="html_445371919c8cbc13a1d4db2439e3cac2" style="width: 100.0%; height: 100.0%;"><b>馬偕醫學院</b><br>新北市三芝區中正路三段46號<br>電話: (02)26360303<br><a href='http://www.mmc.edu.tw' target='_blank'>http://www.mmc.edu.tw</a></div>`)[0];
+                popup_fc346a4408a8c928d76d65f00aa71340.setContent(html_445371919c8cbc13a1d4db2439e3cac2);
+            
+        
+
+        marker_ffb9377097057ecb74d56357337eb796.bindPopup(popup_fc346a4408a8c928d76d65f00aa71340)
+        ;
+
+        
+    
+    
+            marker_ffb9377097057ecb74d56357337eb796.bindTooltip(
+                `<div>
+                     馬偕醫學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_245e0a085064650be89c4c264771b1d7 = L.marker(
+                [25.24453767, 121.6115368],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_9aa03e00c386a0299454de2874a7d50b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c17828aadd5329e51f836203023066e2 = $(`<div id="html_c17828aadd5329e51f836203023066e2" style="width: 100.0%; height: 100.0%;"><b>法鼓文理學院</b><br>新北市金山區西湖里法鼓路700號<br>電話: (02) 24980707<br><a href='http://www.dila.edu.tw/' target='_blank'>http://www.dila.edu.tw/</a></div>`)[0];
+                popup_9aa03e00c386a0299454de2874a7d50b.setContent(html_c17828aadd5329e51f836203023066e2);
+            
+        
+
+        marker_245e0a085064650be89c4c264771b1d7.bindPopup(popup_9aa03e00c386a0299454de2874a7d50b)
+        ;
+
+        
+    
+    
+            marker_245e0a085064650be89c4c264771b1d7.bindTooltip(
+                `<div>
+                     法鼓文理學院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f25959f1fd92af93f005c07f093101c8 = L.marker(
+                [25.12217118, 121.4611814],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_98ca66948b102eec606fc3f77103e125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f043844657916495d7f045729017c5e = $(`<div id="html_1f043844657916495d7f045729017c5e" style="width: 100.0%; height: 100.0%;"><b>馬偕醫護管理專科學校</b><br>臺北市北投區聖景路92號<br>電話: (02)28584180<br><a href='http://www.mkc.edu.tw' target='_blank'>http://www.mkc.edu.tw</a></div>`)[0];
+                popup_98ca66948b102eec606fc3f77103e125.setContent(html_1f043844657916495d7f045729017c5e);
+            
+        
+
+        marker_f25959f1fd92af93f005c07f093101c8.bindPopup(popup_98ca66948b102eec606fc3f77103e125)
+        ;
+
+        
+    
+    
+            marker_f25959f1fd92af93f005c07f093101c8.bindTooltip(
+                `<div>
+                     馬偕醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_654c5e93d50e8513f61cd11054f9605f = L.marker(
+                [24.62507119, 120.7558814],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_6b1ad0b204e9da74c8859cc5eb8b12b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c617910ebafffd5bd184ad1af6d3c88a = $(`<div id="html_c617910ebafffd5bd184ad1af6d3c88a" style="width: 100.0%; height: 100.0%;"><b>仁德醫護管理專科學校</b><br>苗栗縣後龍鎮溪洲里7鄰砂崙湖79之9號<br>電話: (037)728855<br><a href='http://www.jente.edu.tw' target='_blank'>http://www.jente.edu.tw</a></div>`)[0];
+                popup_6b1ad0b204e9da74c8859cc5eb8b12b3.setContent(html_c617910ebafffd5bd184ad1af6d3c88a);
+            
+        
+
+        marker_654c5e93d50e8513f61cd11054f9605f.bindPopup(popup_6b1ad0b204e9da74c8859cc5eb8b12b3)
+        ;
+
+        
+    
+    
+            marker_654c5e93d50e8513f61cd11054f9605f.bindTooltip(
+                `<div>
+                     仁德醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab1a037d73cb34f2cccbebb2b9e399c8 = L.marker(
+                [22.88277222, 120.2597346],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1ac3dd710bb99896e9434397d62aea2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0134538b22a59c369cc8706ce2ab79f = $(`<div id="html_f0134538b22a59c369cc8706ce2ab79f" style="width: 100.0%; height: 100.0%;"><b>樹人醫護管理專科學校</b><br>高雄市路竹區環球路452號<br>電話: (07)6979333<br><a href='http://www.szmc.edu.tw' target='_blank'>http://www.szmc.edu.tw</a></div>`)[0];
+                popup_1ac3dd710bb99896e9434397d62aea2f.setContent(html_f0134538b22a59c369cc8706ce2ab79f);
+            
+        
+
+        marker_ab1a037d73cb34f2cccbebb2b9e399c8.bindPopup(popup_1ac3dd710bb99896e9434397d62aea2f)
+        ;
+
+        
+    
+    
+            marker_ab1a037d73cb34f2cccbebb2b9e399c8.bindTooltip(
+                `<div>
+                     樹人醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ea96b79a89b736c6a3028253019439 = L.marker(
+                [22.48607097, 120.4868524],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_494440dc8a0d94ca6feee82b7aef99b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_813579b00c2e4957d822c94564a4df62 = $(`<div id="html_813579b00c2e4957d822c94564a4df62" style="width: 100.0%; height: 100.0%;"><b>慈惠醫護管理專科學校</b><br>屏東縣南州鄉三民路367號<br>電話: (08)8647367<br><a href='http://www.tzuhui.edu.tw' target='_blank'>http://www.tzuhui.edu.tw</a></div>`)[0];
+                popup_494440dc8a0d94ca6feee82b7aef99b9.setContent(html_813579b00c2e4957d822c94564a4df62);
+            
+        
+
+        marker_93ea96b79a89b736c6a3028253019439.bindPopup(popup_494440dc8a0d94ca6feee82b7aef99b9)
+        ;
+
+        
+    
+    
+            marker_93ea96b79a89b736c6a3028253019439.bindTooltip(
+                `<div>
+                     慈惠醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91af87b3b388312df631b352ca0fe43e = L.marker(
+                [24.97721958, 121.5358072],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_3957115e045e460243d08d4871cf9dde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9580e3fe6e844c7d65d687796dc8dd43 = $(`<div id="html_9580e3fe6e844c7d65d687796dc8dd43" style="width: 100.0%; height: 100.0%;"><b>耕莘健康管理專科學校</b><br>新北市新店區民族路112號<br>電話: (02)22191131<br><a href='http://www.ctcn.edu.tw' target='_blank'>http://www.ctcn.edu.tw</a></div>`)[0];
+                popup_3957115e045e460243d08d4871cf9dde.setContent(html_9580e3fe6e844c7d65d687796dc8dd43);
+            
+        
+
+        marker_91af87b3b388312df631b352ca0fe43e.bindPopup(popup_3957115e045e460243d08d4871cf9dde)
+        ;
+
+        
+    
+    
+            marker_91af87b3b388312df631b352ca0fe43e.bindTooltip(
+                `<div>
+                     耕莘健康管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9ca29e2b3aa602598f38ca65490397f = L.marker(
+                [23.27986698, 120.3274175],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_634a403daa9d6875e75d288032902521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a99dc5c5fd1e306818612b9f724599f1 = $(`<div id="html_a99dc5c5fd1e306818612b9f724599f1" style="width: 100.0%; height: 100.0%;"><b>敏惠醫護管理專科學校</b><br>臺南市柳營區中山東路二段1116號<br>電話: (06)6226111<br><a href='https://www.mhchcm.edu.tw/' target='_blank'>https://www.mhchcm.edu.tw/</a></div>`)[0];
+                popup_634a403daa9d6875e75d288032902521.setContent(html_a99dc5c5fd1e306818612b9f724599f1);
+            
+        
+
+        marker_f9ca29e2b3aa602598f38ca65490397f.bindPopup(popup_634a403daa9d6875e75d288032902521)
+        ;
+
+        
+    
+    
+            marker_f9ca29e2b3aa602598f38ca65490397f.bindTooltip(
+                `<div>
+                     敏惠醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_351d7dc2d533af4c3d8c97a9209c2d84 = L.marker(
+                [22.64981908, 120.3297952],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_938060d9e6bc5c01ad97485c59292d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc718c653c668ca4ae316b23275675ba = $(`<div id="html_bc718c653c668ca4ae316b23275675ba" style="width: 100.0%; height: 100.0%;"><b>育英醫護管理專科學校</b><br>高雄市三民區大昌二路420巷15號<br>電話: (07)3811765<br><a href='http://www.yuhing.edu.tw/releaseRedirect.do?unitID=1&pageID=95' target='_blank'>http://www.yuhing.edu.tw/releaseRedirect.do?unitID=1&pageID=95</a></div>`)[0];
+                popup_938060d9e6bc5c01ad97485c59292d08.setContent(html_bc718c653c668ca4ae316b23275675ba);
+            
+        
+
+        marker_351d7dc2d533af4c3d8c97a9209c2d84.bindPopup(popup_938060d9e6bc5c01ad97485c59292d08)
+        ;
+
+        
+    
+    
+            marker_351d7dc2d533af4c3d8c97a9209c2d84.bindTooltip(
+                `<div>
+                     育英醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c1290df631df08572b263bb6cd7ebf9 = L.marker(
+                [24.66517017, 121.7008073],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_d0db519dcb1ebcbbae7a104fbef10e57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bca46252b7419e4f04537aa3b99d5c9 = $(`<div id="html_4bca46252b7419e4f04537aa3b99d5c9" style="width: 100.0%; height: 100.0%;"><b>聖母醫護管理專科學校</b><br>宜蘭縣三星鄉三星路二段265巷100號<br>電話: (03)9897396<br><a href='http://www.smc.edu.tw/' target='_blank'>http://www.smc.edu.tw/</a></div>`)[0];
+                popup_d0db519dcb1ebcbbae7a104fbef10e57.setContent(html_4bca46252b7419e4f04537aa3b99d5c9);
+            
+        
+
+        marker_7c1290df631df08572b263bb6cd7ebf9.bindPopup(popup_d0db519dcb1ebcbbae7a104fbef10e57)
+        ;
+
+        
+    
+    
+            marker_7c1290df631df08572b263bb6cd7ebf9.bindTooltip(
+                `<div>
+                     聖母醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a1a61d14697013c9e2ff05d4a3d6002 = L.marker(
+                [24.83198817, 121.2061409],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_450712f60846174d14f1fe1ba5d28c05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4ea4d2db5bd19db683343224112bfcd = $(`<div id="html_a4ea4d2db5bd19db683343224112bfcd" style="width: 100.0%; height: 100.0%;"><b>新生醫護管理專科學校</b><br>桃園市龍潭區中豐路高平段418號<br>電話: (03)4117578<br><a href='http://www.web.hsc.edu.tw/bin/home.php' target='_blank'>http://www.web.hsc.edu.tw/bin/home.php</a></div>`)[0];
+                popup_450712f60846174d14f1fe1ba5d28c05.setContent(html_a4ea4d2db5bd19db683343224112bfcd);
+            
+        
+
+        marker_3a1a61d14697013c9e2ff05d4a3d6002.bindPopup(popup_450712f60846174d14f1fe1ba5d28c05)
+        ;
+
+        
+    
+    
+            marker_3a1a61d14697013c9e2ff05d4a3d6002.bindTooltip(
+                `<div>
+                     新生醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37d4214519843b67a226b4e5347e9118 = L.marker(
+                [23.61980238, 120.4564979],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_09cec03a4b1ebe1f53821940c141309b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0eb5f4efda2ffd8fd7983bcb43669444 = $(`<div id="html_0eb5f4efda2ffd8fd7983bcb43669444" style="width: 100.0%; height: 100.0%;"><b>崇仁醫護管理專科學校</b><br>[622]嘉義縣大林鎮湖北里大湖1之10號<br>電話: (05)2658880<br><a href='http://www.cjc.edu.tw' target='_blank'>http://www.cjc.edu.tw</a></div>`)[0];
+                popup_09cec03a4b1ebe1f53821940c141309b.setContent(html_0eb5f4efda2ffd8fd7983bcb43669444);
+            
+        
+
+        marker_37d4214519843b67a226b4e5347e9118.bindPopup(popup_09cec03a4b1ebe1f53821940c141309b)
+        ;
+
+        
+    
+    
+            marker_37d4214519843b67a226b4e5347e9118.bindTooltip(
+                `<div>
+                     崇仁醫護管理專科學校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f5dc79cff8cc01e8aaba5800e4e10ff = L.marker(
+                [25.03560427, 121.5117204],
+                {}
+            ).addTo(marker_cluster_f30d55a07332946160ce087e7da5663a);
+        
+    
+        var popup_1e8b0723ccd40004d3c2312c6ec1f5a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f47716a09f99ea462fdc7423a093085 = $(`<div id="html_3f47716a09f99ea462fdc7423a093085" style="width: 100.0%; height: 100.0%;"><b>臺北市立大學</b><br>臺北市中正區愛國西路1號<br>電話: (02)23113040<br><a href='http://www.uTaipei.edu.tw' target='_blank'>http://www.uTaipei.edu.tw</a></div>`)[0];
+                popup_1e8b0723ccd40004d3c2312c6ec1f5a5.setContent(html_3f47716a09f99ea462fdc7423a093085);
+            
+        
+
+        marker_1f5dc79cff8cc01e8aaba5800e4e10ff.bindPopup(popup_1e8b0723ccd40004d3c2312c6ec1f5a5)
+        ;
+
+        
+    
+    
+            marker_1f5dc79cff8cc01e8aaba5800e4e10ff.bindTooltip(
+                `<div>
+                     臺北市立大學
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_f30d55a07332946160ce087e7da5663a.addTo(map_3047847a6040002d3049a6865f69de3c);
+        
+</script>
+</html>
